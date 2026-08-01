@@ -1,0 +1,54 @@
+[
+   {
+      "dataName": "VoidRadiator",
+      "friendlyName": "Void Radiator",
+      "specificMass_2s_kgm2": 17,
+      "specificPower_2s_KWkg": 5.5,
+      "operatingTemp_K": 2500,
+      "emissivity": 0.99,
+      "vulnerability": 1,
+      "collector": false,
+      "requiredProjectName": "",
+      "crew": 2,
+      "baseMass_tons": 0,
+      "hp": 3,
+      "weightedBuildMaterials": {
+         "water": 0,
+         "volatiles": 0,
+         "metals": 0.1,
+         "nobleMetals": 1,
+         "fissiles": 0,
+         "antimatter": null,
+         "exotics": null
+      },
+      "iconResource": "shipbuildericons/ICO_TitaniumArrayRadiator",
+      "combatUIpath": "fin",
+      "radiatorType": "Fin"
+   },
+   {
+      "dataName": "RadiatorTemplateSkylance",
+      "friendlyName": "Skylance Venting Subsystem",
+      "specificMass_2s_kgm2": 4,
+      "specificPower_2s_KWkg": 2.2,
+      "operatingTemp_K": 700,
+      "emissivity": 0.84,
+      "vulnerability": 10,
+      "collector": false,
+      "requiredProjectName": "Project_DesignTemplateShipSkylanceGunship",
+      "crew": 0,
+      "baseMass_tons": 0,
+      "hp": 1,
+      "weightedBuildMaterials": {
+         "water": 0,
+         "volatiles": 0,
+         "metals": 0.01,
+         "nobleMetals": 0,
+         "fissiles": 0,
+         "antimatter": 0,
+         "exotics": 0
+      },
+      "iconResource": "shipbuildericons/ICO_AluminumFinRadiator",
+      "combatUIpath": "fin",
+      "radiatorType": "Fin"
+   }
+]

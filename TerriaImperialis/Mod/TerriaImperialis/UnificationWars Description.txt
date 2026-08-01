@@ -1,0 +1,50 @@
+Under development-Fight to unify Terra and then the Sol system as the Emperor of Mankind, or search for humanity's lost technologic heritage as the Mechanicum of Mars in this simulation of the Unification Wars of the 30th millennium. 
+
+So I decided to get the ball rolling on this mod concept, as myself and many others feel that TI has a great deal of potential for this kind of setting. It has intrigue, nation building and conquest, void combat, exploration of the unknown, and an alien menace looming in the dark. The current build of the mod is more of a proof of concept for several mechanics, such as renaming Earth to Terra, habs located on Terra, renaming and reshaping national polities, new factions and ideologies, and new hab modules. There are still many blockers for mechanics I wish to pursue, such as transferring between a region and habs on the same planet, and the general mechanic of setting up and triggering narrative events. I could use help in several areas:
+[list]
+[*][b]Ship and Hab Modules[/b] - Interesting ancient modules from both the the Dark Age of Technology and Xenos sources
+[*][b]Narrative Events[/b] - Stories for event that occur in the Unification Wars Era
+[*][b]Assets[/b]- Map region boundaries, icons, models, sounds - most things with assetbundles
+[*][b]Councilors[/b]- Traits, types, appearances, levelling paths, etc.
+[*][b]Coding[/b] - Certain mechanics such as the archeotech mission require a lot it, and can be made more robust against crashes
+[*][b]Lore Hunting[/b] - Making content lore-friendly but not necessarily lore accurate, due to the nature of both the game and the 40k universe
+[/list]
+I expect this mod to both break and be broken by the main game, as it is still in early access, so expect bugs and issues until things stabilize. I also only will make as much progress as I have free time or additional help, as I have a day job. You may contact me via the Pavonis Interactive Discord @Armaman-[url=https://discord.com/invite/XBVqMZU]https://discord.com/invite/XBVqMZU[/url].
+
+[b][u]Future Features/Todo list(in no particular order):[/u][/b]
+[list]
+[*]Create Hab modules
+[*]Create Ship modules
+[*]Create narrative events based on lore
+[*]Create narrative events chains for archeotech expeditions
+[*]Councillor traits, types, and upgrade paths
+[*]Populate habs across Solar system
+[*]Populate Vault projects
+[*]Figure out ideologies
+[*]Figure out Objectives
+[*]Create Imperial objective path
+[*]Create Mechanicum objective path
+[*]Figure out assetbundles
+[*]Icons, portraits, sounds, appearances, backgrounds, voices
+[*]30k Terran Regions and Map textures
+[*]Ship and hab models
+[*]Quotes
+[*]???
+[*]Polish!
+[/list]
+[b][u]Compatibility[/u][/b]
+This is an overhaul mod that modifies most everything about Terra Invicta. Due to the current way that merging .json files work, most files will merge and overwrite, but not remove, vanilla files and entries. So if you are using any other mods that rely on vanilla entries, those will most likely not work. 
+The mod requires Unity Mod Manager to function. It now (as of 8 October 2022) has support for Terra Invicta!
+
+To install Unity Mod Manager, download version 0.25.0 or later version from Nexus Mods [url=https://www.nexusmods.com/site/mods/21]https://www.nexusmods.com/site/mods/21[/url].
+Version Information:
+I am running the standard stable Steam release, (last updated TI build 0.3.35), and UMM 0.25.0.0. I have all my mod data under \Terra Invicta\Mods\Enabled\UnificationWars, including UnificationWars.dll.
+
+[b][u]Personal Note:[/u][/b]
+This is my second published TI mod. Let me know in the discussion section about improvements, bugs, etc. and I will try to address your concerns. This mod was created mostly for my own enjoyment of TI and I would like to share it with you. Improving it would help us both. 
+
+[b][u]Credits and Legal:[/u][/b]
+Warhammer:40000 and all related marks, logos and characters are solely owned by Games Workshop. This fan production is not endorsed by, sponsored by, nor affiliated with Games Workshop, or the Warhammer franchise, and is non-commercial and intended for recreational use. No commercial exhibition or distribution is permitted. No alleged independent rights will be asserted against Games Workshop.
+
+[b][u]Localization notes:[/u][/b]
+I intend to machine translate relevant localizations when I have the time. If anyone wishes to assist with translation, feel free to reach out to me. I will credit your translation efforts.

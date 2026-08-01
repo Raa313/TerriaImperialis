@@ -1,0 +1,157 @@
+[
+   {
+      "dataName": "SearchVaultHabModule",
+      "friendlyName": "Search for Archeotech",
+      "disable": false,
+      "baseMission": true,
+      "persistentEffect": false,
+      "noise": [
+         null,
+         null,
+         null,
+         null,
+         null,
+         null
+      ],
+      "hate": [
+         null,
+         null,
+         null,
+         null,
+         null,
+         null
+      ],
+      "specialPost": false,
+      "permanentAssignment": false,
+      "XPonSuccess": 0,
+      "sortOrder": 0,
+      "missionContext": "SpaceOnly",
+      "utilityScore": 10,
+      "UIalertEnemyOnFail": false,
+      "AIDoubleUpAllowed": false,
+      "maximumTargetOptionCount": 20,
+      "resolutionOrder": 0,
+      "resolutionMethod": {
+         "$type": "TIMissionResolution_Automatic",
+         "attackingModifiers": [
+            {
+               "$type": "",
+               "attackerAttribute": ""
+            },
+            {
+               "$type": ""
+            },
+            {
+               "$type": ""
+            },
+            {
+               "$type": ""
+            },
+            {
+               "$type": ""
+            },
+            {
+               "$type": ""
+            },
+            {
+               "$type": ""
+            },
+            {
+               "$type": ""
+            },
+            {
+               "$type": ""
+            }
+         ],
+         "defendingModifiers": [
+            {
+               "$type": "",
+               "flatModifier": null,
+               "defenderAttribute": ""
+            },
+            {
+               "$type": "",
+               "defenderAttribute": ""
+            },
+            {
+               "$type": "",
+               "defenderAttribute": ""
+            },
+            {
+               "$type": ""
+            },
+            {
+               "$type": ""
+            },
+            {
+               "$type": ""
+            },
+            {
+               "$type": ""
+            },
+            {
+               "$type": ""
+            },
+            {
+               "$type": ""
+            },
+            {
+               "$type": ""
+            }
+         ]
+      },
+      "attackerContexts": [
+         "",
+         ""
+      ],
+      "defenderContexts": [
+         ""
+      ],
+      "conditions": [
+         {
+            "$type": "TIMissionCondition_TargetInRange"
+         },
+         {
+            "$type": "TIMissionCondition_Human"
+         },
+         {
+            "$type": "TIMissionCondition_HasVaultModule"
+         },
+         {
+            "$type": ""
+         },
+         {
+            "$type": ""
+         }
+      ],
+      "movementRule": "MoveToTarget",
+      "targetEffects": [
+         {
+            "$type": "TIMissionEffect_ExploreVault"
+         }
+      ],
+      "councilorEffects": [
+         {
+            "$type": ""
+         }
+      ],
+      "target": {
+         "$type": "TIMissionTarget_VaultHabModule"
+      },
+      "cost": {
+         "$type": "TIMissionCost_Flat",
+         "resourceType": "Operations",
+         "value": 10
+      },
+      "knowledgeProject": "",
+      "missionIconImagePath": "councilor_missions/ICO_sabotagefacilities",
+      "targetingMethodType": "TIMissionTargeting_HabModule",
+      "completedIllustrationResource": [
+         "illustrations/Mission_SabotageHabModule",
+         "illustrations/Mission_SabotageHabModule",
+         ""
+      ],
+      "successSFX": "event:/SFX/Game_SFX/Explosions/trig_sfx_ExplosionSubtlePoof01Stereo",
+      "successSFXAlienSpecial": ""
+   }
+]

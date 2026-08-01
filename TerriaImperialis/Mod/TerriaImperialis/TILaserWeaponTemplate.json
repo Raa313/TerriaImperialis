@@ -1,0 +1,39 @@
+[
+   {
+      "dataName": "LaserWeaponTemplateSkyLancePointDefenseLaserTurret",
+      "friendlyName": "Skylance PD Laser Turret",
+      "mount": "OneHull",
+      "attackMode": false,
+      "defenseMode": true,
+      "cooldown_s": 1,
+      "efficiency": 0.15,
+      "baseWeaponMass_tons": 1,
+      "bombardmentValue": 0,
+      "targetingRange_km": false,
+      "pivotRange_deg": 270,
+      "flatDamage_MJ": null,
+      "salvo_shots": 1,
+      "intraSalvoCooldown_s": null,
+      "shotPower_MJ": 10,
+      "wavelength_nm": 1000,
+      "mirrorRadius_cm": 40,
+      "beam_quality": 1.1,
+      "jitter_Rad": 0.000000119,
+      "requiredProjectName": "Project_DesignTemplateShipSkylanceGunship",
+      "crew": 0,
+      "hp": 1,
+      "weightedBuildMaterials": {
+         "water": 0,
+         "volatiles": 0.1,
+         "metals": 0.7,
+         "nobleMetals": 0.2,
+         "fissiles": 0,
+         "antimatter": null,
+         "exotics": null
+      },
+      "iconResource": "shipbuildericons/ICO_PointDefenseLaserTurret",
+      "modelResource": "shipweapons/point_defense_laser_battery",
+      "effectResource": "spaceCombat/Standard Laser Beam Red",
+      "fireSoundFXResource": "event:/SFX/Game_SFX/Lasers/trig_SFX_Basic_Laser_Turret"
+   }
+]

@@ -1,0 +1,56 @@
+[
+   {
+      "dataName": "Artefact9KappaMu",
+      "friendlyName": "Artefact 9-Kappa-Mu",
+      "modelResource": "",
+      "modelScale": 10,
+      "numAltModels": 0,
+      "altModels": [
+         {
+            "modelResource": "",
+            "condition": {
+               "$type": "",
+               "strIdx": "",
+               "sign": "",
+               "strValue": ""
+            }
+         }
+      ],
+      "symbolTexture": "",
+      "mapResource": "",
+      "mapScale": null,
+      "barycenterName": "Sol",
+      "objectType": "Asteroid",
+      "effectToExplore": "Effect_ExploreInnerPlanets",
+      "irradiatedMultiplier": 1,
+      "atmosphere": "None",
+      "semiMajorAxis_AU": 0.81485,
+      "semiMajorAxis_km": null,
+      "eccentricity": 0.51485,
+      "inclination_Deg": 19.805,
+      "longAscendingNode_Deg": 126.23,
+      "longPeriapsis_Deg": null,
+      "meanLongitude_Deg": null,
+      "argPeriapsis_Deg": 43.831,
+      "meanAnomalyAtEpoch_Deg": 257.46,
+      "apsidalPrecession_Years": null,
+      "nodalPrecession_Years": null,
+      "epoch_floatJYears": 204.65,
+      "meanRadius_km": null,
+      "equatorialRadius_km": null,
+      "dimensionX_km": 30,
+      "dimensionY_km": 30,
+      "dimensionZ_km": 30,
+      "oblateness": null,
+      "mass_kg": 18000000000000000,
+      "density_gcm3": 3,
+      "rotationPeriod_strHours": "3.604",
+      "rotationOffset_Deg": null,
+      "tilt_Deg": null,
+      "tiltskew_Deg": null,
+      "fabricatedData": "",
+      "angularDiameterMultiplier": 1,
+      "atmosphereScaleHeight_km": null,
+      "atmosphereSurfaceDensity_kgpm3": null
+   }
+]

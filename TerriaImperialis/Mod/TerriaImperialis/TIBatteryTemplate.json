@@ -1,0 +1,42 @@
+[
+   {
+      "dataName": "SupercapaciterBattery",
+      "friendlyName": "Supercapacitor Battery",
+      "energyCapacity_GJ": 80,
+      "rechargeRate_GJs": 0.2,
+      "requiredProjectName": "",
+      "crew": 1,
+      "baseMass_tons": 1,
+      "hp": 5,
+      "weightedBuildMaterials": {
+         "water": 0,
+         "volatiles": 0.1,
+         "metals": 0.7,
+         "nobleMetals": 0.2,
+         "fissiles": 0,
+         "antimatter": 0,
+         "exotics": 0
+      },
+      "iconResource": "shipbuildericons/ICO_SuperconductingCoilBattery"
+   },
+   {
+      "dataName": "BatteryTemplateSkylance",
+      "friendlyName": "Skylance Internal Capacitor",
+      "energyCapacity_GJ": 4,
+      "rechargeRate_GJs": 0.01,
+      "requiredProjectName": "Project_DesignTemplateShipSkylanceGunship",
+      "crew": 0,
+      "baseMass_tons": 0,
+      "hp": 1,
+      "weightedBuildMaterials": {
+         "water": 0,
+         "volatiles": 0,
+         "metals": 0.1,
+         "nobleMetals": 0.01,
+         "fissiles": 0,
+         "antimatter": 0,
+         "exotics": 0
+      },
+      "iconResource": "shipbuildericons/ICO_LithiumIonBattery"
+   }
+]

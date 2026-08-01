@@ -1,0 +1,8 @@
+C:\Program Files (x86)\Steam\steamapps\common\Terra Invicta\BepInEx\monomod\Assembly-CSharp.TerriaImperialis.dll
+C:\Program Files (x86)\Steam\steamapps\common\Terra Invicta\BepInEx\monomod\Assembly-CSharp.TerriaImperialis.pdb
+C:\Users\Kaise\source\repos\TerriaImperialis\Source\obj\Debug\TerriaImperialis.csproj.AssemblyReference.cache
+C:\Users\Kaise\source\repos\TerriaImperialis\Source\obj\Debug\TerriaImperialis.csproj.CoreCompileInputs.cache
+C:\Users\Kaise\source\repos\TerriaImperialis\Mod\TerriaImperialis\BepInEx\monomod\Assembly-CSharp.TerriaImperialis.mm.dll
+C:\Users\Kaise\source\repos\TerriaImperialis\Mod\TerriaImperialis\BepInEx\monomod\Assembly-CSharp.TerriaImperialis.mm.pdb
+C:\Users\Kaise\source\repos\TerriaImperialis\Source\obj\Debug\Assembly-CSharp.TerriaImperialis.mm.dll
+C:\Users\Kaise\source\repos\TerriaImperialis\Source\obj\Debug\Assembly-CSharp.TerriaImperialis.mm.pdb

@@ -1,0 +1,107 @@
+[
+   {
+      "dataName": "HumanGeneralTerra",
+      "friendlyName": "Bring Terra's Tribes and Nations Under Your Control",
+      "objectiveType": "General",
+      "starter": true,
+      "unlockingObjectivesConjunction": "",
+      "unlockingObjectiveNames": [
+         ""
+      ],
+      "targetMissionTemplateName": "",
+      "targetMissionTarget": "",
+      "targetProjectTemplateName": "",
+      "targetTechTemplateName": "",
+      "isChildObjective": false,
+      "targetMilestone": "",
+      "targetHabModuleName": "",
+      "targetCount": null,
+      "targetHabLocation": "",
+      "NewAIValuesIndex": -1,
+      "setsWinConditionForFaction": null,
+      "resourcesGranted": [
+         {
+            "resource": "",
+            "value": null
+         }
+      ],
+      "factionDataNames": [
+         "ImperialCouncil",
+         "SubmitCouncil"
+      ],
+      "assignedIllustrationResource": "",
+      "completedIllustrationResource": ""
+   },
+   {
+      "dataName": "HumanGeneralArcheotech",
+      "friendlyName": "Recover Lost Technologies and Archeotech",
+      "objectiveType": "General",
+      "starter": true,
+      "unlockingObjectivesConjunction": "",
+      "unlockingObjectiveNames": [
+         ""
+      ],
+      "targetMissionTemplateName": "",
+      "targetMissionTarget": "",
+      "targetProjectTemplateName": "",
+      "targetTechTemplateName": "",
+      "isChildObjective": false,
+      "targetMilestone": "",
+      "targetHabModuleName": "",
+      "targetCount": null,
+      "targetHabLocation": "",
+      "NewAIValuesIndex": -1,
+      "setsWinConditionForFaction": null,
+      "resourcesGranted": [
+         {
+            "resource": "",
+            "value": null
+         }
+      ],
+      "factionDataNames": [
+         "ImperialCouncil",
+         "MachineCouncil",         
+         "GeneCouncil",         
+         "SubmitCouncil",
+         "SaturnCouncil"
+      ],
+      "assignedIllustrationResource": "",
+      "completedIllustrationResource": ""
+   },
+   {
+      "dataName": "HumanGeneralInnerCircle",
+      "friendlyName": "Build the Inner Circle",
+      "objectiveType": "General",
+      "starter": true,
+      "unlockingObjectivesConjunction": "",
+      "unlockingObjectiveNames": [
+         ""
+      ],
+      "targetMissionTemplateName": "",
+      "targetMissionTarget": "",
+      "targetProjectTemplateName": "",
+      "targetTechTemplateName": "",
+      "isChildObjective": false,
+      "targetMilestone": "",
+      "targetHabModuleName": "",
+      "targetCount": null,
+      "targetHabLocation": "",
+      "NewAIValuesIndex": -1,
+      "setsWinConditionForFaction": null,
+      "resourcesGranted": [
+         {
+            "resource": "",
+            "value": null
+         }
+      ],
+      "factionDataNames": [
+         "ImperialCouncil",
+         "MachineCouncil",         
+         "GeneCouncil",                 
+         "SubmitCouncil",
+         "SaturnCouncil"
+      ],
+      "assignedIllustrationResource": "",
+      "completedIllustrationResource": ""
+   }
+]

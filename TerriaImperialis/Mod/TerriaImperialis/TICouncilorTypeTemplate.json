@@ -1,0 +1,498 @@
+[
+   {
+      "dataName": "CouncilorTypeWarlord",
+      "friendlyName": "Warlord",
+      "keyStat": [
+         "Command",
+         "Security"
+      ],
+      "missionNames": [
+         "DetectCouncilActivity",
+         "Assassinate",
+         "Extract",
+         "Protect",
+         "Unrest",
+         "Stabilize",
+         "Coup",
+         "AssaultAlienAsset"
+      ],
+      "affinities": [
+         "Submit"
+      ],
+      "unlockingTechName": "",
+      "weight": 25,
+      "basePersuasion": 4,
+      "randPersuasion": 3,
+      "baseCommand": 8,
+      "randCommand": 5,
+      "baseEspionage": 3,
+      "randEspionage": 2,
+      "baseInvestigation": 3,
+      "randInvestigation": 3,
+      "baseAdministration": 2,
+      "randAdministration": 2,
+      "baseScience": 1,
+      "randScience": 1,
+      "baseSecurity": 7,
+      "randSecurity": 7,
+      "baseLoyalty": 5,
+      "randLoyalty": 13,
+      "iconStr": "_generic"
+   },
+   {
+      "dataName": "CouncilorTypePirateLord",
+      "friendlyName": "Pirate Lord",
+      "keyStat": [
+         "Command",
+         "Security"
+      ],
+      "missionNames": [
+         "DefendInterests",
+         "SeizeSpaceAsset",
+         "DetectCouncilActivity",
+         "Assassinate",
+         "Extract",
+         "Protect",
+         "Detain",
+         "HostileTakeover",
+         "Unrest",
+         "Stabilize",
+         "Coup",
+         "SabotageFacilities",
+         "SabotageHabModule",
+         "StealProject"
+      ],
+      "affinities": [
+         "Exploit"
+      ],
+      "unlockingTechName": "",
+      "weight": 25,
+      "basePersuasion": 6,
+      "randPersuasion": 3,
+      "baseCommand": 5,
+      "randCommand": 3,
+      "baseEspionage": 3,
+      "randEspionage": 3,
+      "baseInvestigation": 3,
+      "randInvestigation": 3,
+      "baseAdministration": 3,
+      "randAdministration": 3,
+      "baseScience": 2,
+      "randScience": 2,
+      "baseSecurity": 6,
+      "randSecurity": 6,
+      "baseLoyalty": 3,
+      "randLoyalty": 10,
+      "iconStr": "_generic"
+   },
+   {
+      "dataName": "CouncilorTypeVoidCaptain",
+      "friendlyName": "Void Captain",
+      "keyStat": [
+         "Command",
+         "Science"
+      ],
+      "missionNames": [
+         "DefendInterests",
+         "ControlSpaceAsset",
+         "SeizeSpaceAsset",
+         "Inspire",
+         "SabotageHabModule",
+         "Advise",
+         "InvestigateAlienActivity"
+      ],
+      "affinities": [
+         "Escape",
+         "Appease"
+      ],
+      "unlockingTechName": "",
+      "weight": 25,
+      "basePersuasion": 5,
+      "randPersuasion": 2,
+      "baseCommand": 9,
+      "randCommand": 6,
+      "baseEspionage": 3,
+      "randEspionage": 3,
+      "baseInvestigation": 3,
+      "randInvestigation": 3,
+      "baseAdministration": 6,
+      "randAdministration": 5,
+      "baseScience": 5,
+      "randScience": 5,
+      "baseSecurity": 4,
+      "randSecurity": 3,
+      "baseLoyalty": 7,
+      "randLoyalty": 13,
+      "iconStr": "_generic"
+   },
+   {
+      "dataName": "CouncilorTypeGeneral",
+      "friendlyName": "General",
+      "keyStat": [
+         "Command",
+         "Security"
+      ],
+      "missionNames": [
+         "SeizeSpaceAsset",
+         "DetectCouncilActivity",
+         "Assassinate",
+         "Extract",
+         "Protect",
+         "Detain",
+         "Unrest",
+         "Stabilize",
+         "SabotageFacilities",
+         "SabotageHabModule",
+         "AssaultAlienAsset",
+         "InvestigateAlienActivity"
+      ],
+      "affinities": [
+         "Imperial"
+      ],
+      "unlockingTechName": "",
+      "weight": 25,
+      "basePersuasion": 4,
+      "randPersuasion": 4,
+      "baseCommand": 9,
+      "randCommand": 9,
+      "baseEspionage": 5,
+      "randEspionage": 2,
+      "baseInvestigation": 5,
+      "randInvestigation": 4,
+      "baseAdministration": 4,
+      "randAdministration": 4,
+      "baseScience": 2,
+      "randScience": 2,
+      "baseSecurity": 7,
+      "randSecurity": 7,
+      "baseLoyalty": 9,
+      "randLoyalty": 12,
+      "iconStr": "_generic"
+   },
+   {
+      "dataName": "CouncilorTypeMagosBiologis",
+      "friendlyName": "Magos Biologis",
+      "keyStat": [
+         "Science",
+         "Persuasion"
+      ],
+      "missionNames": [
+         "SearchVaultHabModule",
+         "Advise",
+         "Inspire",
+         "InvestigateAlienActivity",
+         "InvestigateCouncilor",
+         "SetNationalPolicy",
+         "Stabilize",
+         "Turn",
+         "Unrest"
+      ],
+      "affinities": [
+         "Machine"
+      ],
+      "unlockingTechName": "",
+      "weight": 25,
+      "basePersuasion": 8,
+      "randPersuasion": 5,
+      "baseCommand": 3,
+      "randCommand": 3,
+      "baseEspionage": 3,
+      "randEspionage": 3,
+      "baseInvestigation": 4,
+      "randInvestigation": 5,
+      "baseAdministration": 5,
+      "randAdministration": 5,
+      "baseScience": 9,
+      "randScience": 9,
+      "baseSecurity": 6,
+      "randSecurity": 6,
+      "baseLoyalty": 12,
+      "randLoyalty": 12,
+      "iconStr": "_generic"
+   },
+   {
+      "dataName": "CouncilorTypeMagosCybertheurgist",
+      "friendlyName": "Magos Cybertheurgist",
+      "keyStat": [
+         "Science",
+         "Espionage"
+      ],
+      "missionNames": [
+         "SearchVaultHabModule",
+         "Advise",
+         "DefendInterests",
+         "InvestigateAlienActivity",
+         "DetectCouncilActivity",
+         "Propaganda",
+         "InvestigateCouncilor",
+         "SabotageHabModule",
+         "SabotageProject",
+         "StealProject"
+      ],
+      "affinities": [
+         "Machine"
+      ],
+      "unlockingTechName": "",
+      "weight": 25,
+      "basePersuasion": 2,
+      "randPersuasion": 2,
+      "baseCommand": 3,
+      "randCommand": 3,
+      "baseEspionage": 9,
+      "randEspionage": 9,
+      "baseInvestigation": 6,
+      "randInvestigation": 6,
+      "baseAdministration": 5,
+      "randAdministration": 5,
+      "baseScience": 8,
+      "randScience": 8,
+      "baseSecurity": 5,
+      "randSecurity": 5,
+      "baseLoyalty": 12,
+      "randLoyalty": 12,
+      "iconStr": "_generic"
+   },
+   {
+      "dataName": "CouncilorTypeMagosDominus",
+      "friendlyName": "Magos Dominus",
+      "keyStat": [
+         "Command",
+         "Administration"
+      ],
+      "missionNames": [
+         "Advise",
+         "DefendInterests",
+         "InvestigateAlienActivity",
+         "DetectCouncilActivity",
+         "SeizeSpaceAsset",
+         "AssaultAlienAsset",
+         "Assassinate",
+         "Extract",
+         "Protect",
+         "Detain"
+      ],
+      "affinities": [
+         "Machine"
+      ],
+      "unlockingTechName": "",
+      "weight": 25,
+      "basePersuasion": 2,
+      "randPersuasion": 2,
+      "baseCommand": 9,
+      "randCommand": 9,
+      "baseEspionage": 3,
+      "randEspionage": 3,
+      "baseInvestigation": 4,
+      "randInvestigation": 4,
+      "baseAdministration": 8,
+      "randAdministration": 8,
+      "baseScience": 8,
+      "randScience": 8,
+      "baseSecurity": 8,
+      "randSecurity": 8,
+      "baseLoyalty": 12,
+      "randLoyalty": 12,
+      "iconStr": "_generic"
+   },
+   {
+      "dataName": "CouncilorTypeMagosExplorator",
+      "friendlyName": "Magos Explorator",
+      "keyStat": [
+         "Investigation",
+         "Science"
+      ],
+      "missionNames": [
+         "SearchVaultHabModule",
+         "Advise",
+         "InvestigateAlienActivity",
+         "DetectCouncilActivity",
+         "InvestigateCouncilor",
+         "StealProject",
+         "SeizeSpaceAsset",
+         "ControlSpaceAsset",
+         "SabotageHabModule",
+         "Detain"
+      ],
+      "affinities": [
+         "Machine"
+      ],
+      "unlockingTechName": "",
+      "weight": 25,
+      "basePersuasion": 2,
+      "randPersuasion": 2,
+      "baseCommand": 3,
+      "randCommand": 3,
+      "baseEspionage": 5,
+      "randEspionage": 5,
+      "baseInvestigation": 9,
+      "randInvestigation": 9,
+      "baseAdministration": 6,
+      "randAdministration": 6,
+      "baseScience": 9,
+      "randScience": 9,
+      "baseSecurity": 7,
+      "randSecurity": 7,
+      "baseLoyalty": 12,
+      "randLoyalty": 12,
+      "iconStr": "_generic"
+   },
+   {
+      "dataName": "CouncilorTypeMagosReductor",
+      "friendlyName": "Magos Reductor",
+      "keyStat": [
+         "Security",
+         "Command"
+      ],
+      "missionNames": [
+         "DefendInterests",
+         "DetectCouncilActivity",
+         "InvestigateCouncilor",
+         "SeizeSpaceAsset",
+         "AssaultAlienAsset",
+         "Extract",
+         "Protect",
+         "Coup",
+         "Unrest",
+         "Crackdown",
+         "Purge"
+      ],
+      "affinities": [
+         "Machine"
+      ],
+      "unlockingTechName": "",
+      "weight": 25,
+      "basePersuasion": 1,
+      "randPersuasion": 1,
+      "baseCommand": 7,
+      "randCommand": 7,
+      "baseEspionage": 6,
+      "randEspionage": 6,
+      "baseInvestigation": 3,
+      "randInvestigation": 3,
+      "baseAdministration": 5,
+      "randAdministration": 5,
+      "baseScience": 7,
+      "randScience": 7,
+      "baseSecurity": 9,
+      "randSecurity": 9,
+      "baseLoyalty": 12,
+      "randLoyalty": 12,
+      "iconStr": "_generic"
+   },
+   {
+      "dataName": "CouncilorTypeMagosArtisan",
+      "friendlyName": "Magos Artisan",
+      "keyStat": [
+         "Administration",
+         "Science"
+      ],
+      "missionNames": [
+         "Advise",
+         "Inspire",
+         "SetNationalPolicy",
+         "Stabilize",
+         "StealProject",
+         "ControlSpaceAsset"
+      ],
+      "affinities": [
+         "Machine"
+      ],
+      "unlockingTechName": "",
+      "weight": 25,
+      "basePersuasion": 2,
+      "randPersuasion": 2,
+      "baseCommand": 6,
+      "randCommand": 6,
+      "baseEspionage": 3,
+      "randEspionage": 3,
+      "baseInvestigation": 3,
+      "randInvestigation": 3,
+      "baseAdministration": 9,
+      "randAdministration": 9,
+      "baseScience": 9,
+      "randScience": 9,
+      "baseSecurity": 3,
+      "randSecurity": 3,
+      "baseLoyalty": 12,
+      "randLoyalty": 12,
+      "iconStr": "_generic"
+   },
+   {
+      "dataName": "CouncilorTypeMagosLogis",
+      "friendlyName": "Magos Logis",
+      "keyStat": [
+         "Administration",
+         "Science"
+      ],
+      "missionNames": [
+         "Advise",
+         "SetNationalPolicy",
+         "Stabilize",
+         "HostileTakeover",
+         "ControlSpaceAsset"
+      ],
+      "affinities": [
+         "Machine"
+      ],
+      "unlockingTechName": "",
+      "weight": 25,
+      "basePersuasion": 2,
+      "randPersuasion": 2,
+      "baseCommand": 3,
+      "randCommand": 3,
+      "baseEspionage": 4,
+      "randEspionage": 4,
+      "baseInvestigation": 3,
+      "randInvestigation": 3,
+      "baseAdministration": 9,
+      "randAdministration": 9,
+      "baseScience": 9,
+      "randScience": 9,
+      "baseSecurity": 3,
+      "randSecurity": 3,
+      "baseLoyalty": 12,
+      "randLoyalty": 12,
+      "iconStr": "_generic"
+   },
+   {
+      "dataName": "CouncilorTypeGeneWitch",
+      "friendlyName": "Gene-Witch",
+      "keyStat": [
+         "Science",
+         "Persuasion"
+      ],
+      "missionNames": [
+         "SearchVaultHabModule",
+         "Advise",
+         "Inspire",
+         "InvestigateAlienActivity",
+         "InvestigateCouncilor",
+         "SetNationalPolicy",
+         "Stabilize",
+         "Turn",
+         "Unrest"
+      ],
+      "affinities": [
+         "Cooperate"
+      ],
+      "unlockingTechName": "",
+      "weight": 25,
+      "basePersuasion": 6,
+      "randPersuasion": 6,
+      "baseCommand": 3,
+      "randCommand": 3,
+      "baseEspionage": 7,
+      "randEspionage": 7,
+      "baseInvestigation": 7,
+      "randInvestigation": 7,
+      "baseAdministration": 4,
+      "randAdministration": 4,
+      "baseScience": 9,
+      "randScience": 9,
+      "baseSecurity": 4,
+      "randSecurity": 4,
+      "baseLoyalty": 8,
+      "randLoyalty": 8,
+      "iconStr": "_generic"
+   }
+]

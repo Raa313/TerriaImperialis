@@ -1,0 +1,32 @@
+[
+  {
+    "dataName": "imperial",
+    "alien": false,
+    "undecided": false,
+    "sortOrder": 7,
+    "willProxy": -1,
+    "willAppease": -1,
+    "initialReactionGroup": 2,
+    "ideology": "Imperial",
+    "ideologyCoordinates": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "dataName": "machine",
+    "alien": false,
+    "undecided": false,
+    "sortOrder": 8,
+    "willProxy": -1,
+    "willAppease": -1,
+    "initialReactionGroup": 0,
+    "ideology": "Destroy",
+    "ideologyCoordinates": {
+      "x": 2,
+      "y": -0.5,
+      "z": 0
+    }
+  },
+]

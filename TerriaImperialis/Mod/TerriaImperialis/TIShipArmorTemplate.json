@@ -1,0 +1,44 @@
+[
+   {
+      "dataName": "MirroredArmor",
+      "friendlyName": "Mirrored Armor",
+      "density_kgm3": 2200,
+      "heatofVaporization_MJkg": 70,
+      "specialty": "LaserResistance",
+      "requiredProjectName": "",
+      "crew": 0,
+      "mass_tons": 0,
+      "hp": 0,
+      "weightedBuildMaterials": {
+         "water": 0,
+         "volatiles": 0.25,
+         "metals": 0.25,
+         "nobleMetals": 0.1,
+         "fissiles": 0,
+         "antimatter": 0,
+         "exotics": 0.1
+      },
+      "iconResource": "shipbuildericons/ICO_ExoticArmor"
+   },
+   {
+      "dataName": "ShipArmorTemplateSkylance",
+      "friendlyName": "Skylance Ceramite Armor",
+      "density_kgm3": 1100,
+      "heatofVaporization_MJkg": 80,
+      "specialty": "LaserResistance",
+      "requiredProjectName": "Project_DesignTemplateShipSkylanceGunship",
+      "crew": 0,
+      "mass_tons": 0,
+      "hp": null,
+      "weightedBuildMaterials": {
+         "water": 0.001,
+         "volatiles": 0.01,
+         "metals": 0.01,
+         "nobleMetals": 0,
+         "fissiles": 0,
+         "antimatter": 0,
+         "exotics": 0
+      },
+      "iconResource": "shipbuildericons/ICO_CompositeArmor"
+   }
+]

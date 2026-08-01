@@ -1,0 +1,1440 @@
+[
+  {
+    "dataName": "AUS",
+    "friendlyName": "Strailya",
+    "flagResource": "nationflags/Australia",
+    "unionFlagResource": "nationflags/Republic_Of_The_Southern_Cross",
+    "unionTrigger": 4,
+    "color32": {
+      "r": 5,
+      "g": 100,
+      "b": 200
+    },
+    "color": {
+      "r": 0.03,
+      "g": 0.59,
+      "b": 1.18,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 412572480000,
+    "popGrowthModifier": null,
+    "initialFactionStr": null,
+    "cohesion": 6,
+    "unrest": "4",
+    "inequality": "4.43",
+    "democracy": 3.9,
+    "education": 5.24,
+    "spaceFunding_year": 15,
+    "miltech": 4.2,
+    "nuclearWeapons": 0,
+    "initSpaceIPs": 15,
+    "nuclearProgramIPs": 0,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 59,
+    "buildNavyIPs": 15,
+    "initialPriorityPreset": [
+      "Survival",
+      "Reactionary",
+      "Conservative",
+      "Conservative",
+      "Libertarian",
+      "Modernization"
+    ],
+    "ISOCodes": [
+      "AUS"
+    ]
+  },
+  {
+    "dataName": "JPN",
+    "friendlyName": "Pan-Pacific Empire",
+    "flagResource": "nationflags/Japan",
+    "unionFlagResource": "nationflags/Japan",
+    "unionTrigger": 4,
+    "color32": {
+      "r": 188,
+      "g": 0,
+      "b": 45
+    },
+    "color": {
+      "r": 0.88,
+      "g": 0,
+      "b": 0.21,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 5376866000000,
+    "popGrowthModifier": -1,
+    "initialFactionStr": null,
+    "cohesion": 8,
+    "unrest": "2",
+    "inequality": "4.29",
+    "democracy": 2.15,
+    "education": 6.51,
+    "spaceFunding_year": 150,
+    "miltech": 4.3,
+    "nuclearWeapons": 10,
+    "initSpaceIPs": 50,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 50,
+    "buildArmyIPs": 59,
+    "buildNavyIPs": 150,
+    "initialPriorityPreset": [
+      "Militarist",
+      "Digitalization",
+      "Conservative",
+      "Expansionist",
+      "Totalitarian",
+      "Imperial"
+    ],
+    "ISOCodest": [
+      "JPN"
+    ]
+  },
+  {
+    "dataName": "BLR",
+    "friendlyName": "Kievan Rus Khaganate",
+    "flagResource": "nationflags/Belarus",
+    "unionFlagResource": "1",
+    "unionTrigger": null,
+    "color32": {
+      "r": 200,
+      "g": 80,
+      "b": 50
+    },
+    "color": {
+      "r": 0.78,
+      "g": 0.31,
+      "b": 0.2,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 177539120000,
+    "popGrowthModifier": -0.5,
+    "initialFactionStr": null,
+    "cohesion": 6,
+    "unrest": "3",
+    "inequality": "3.44",
+    "democracy": 2.41,
+    "education": 4.38,
+    "spaceFunding_year": 1,
+    "miltech": 3.6,
+    "nuclearWeapons": 5,
+    "initSpaceIPs": 0,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 20,
+    "buildArmyIPs": 55,
+    "buildNavyIPs": 1,
+    "initialPriorityPreset": [
+      "Survival",
+      "Authoritarian",
+      "Industrialization",
+      "Authoritarian",
+      "Authoritarian",
+      "Kleptocratic"
+    ],
+    "ISOCodest": [
+      "BLR"
+    ]
+  },
+  {
+    "dataName": "BRA",
+    "friendlyName": "Hy Brasil",
+    "flagResource": "nationflags/Brazil",
+    "unionFlagResource": "1",
+    "unionTrigger": null,
+    "color32": {
+      "r": 0,
+      "g": 118,
+      "b": 0
+    },
+    "color": {
+      "r": 0,
+      "g": 0.46,
+      "b": 0,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 5239228960000,
+    "popGrowthModifier": null,
+    "initialFactionStr": null,
+    "cohesion": 5,
+    "unrest": "2",
+    "inequality": "6.89",
+    "democracy": 7.86,
+    "education": 8.94,
+    "spaceFunding_year": 7,
+    "miltech": 4,
+    "nuclearWeapons": 8,
+    "initSpaceIPs": 20,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 30,
+    "buildNavyIPs": 7,
+    "initialPriorityPreset": [
+      "Survival",
+      "Survival",
+      "Conservative",
+      "Populist",
+      "Developing",
+      "Kleptocratic"
+    ],
+    "ISOCodest": [
+      "BRA"
+    ]
+  },
+  {
+    "dataName": "EGY",
+    "friendlyName": "Gyptus",
+    "flagResource": "nationflags/Egypt",
+    "unionFlagResource": "nationflags/United_Arab_League",
+    "unionTrigger": 2,
+    "color32": {
+      "r": 188,
+      "g": 143,
+      "b": 143
+    },
+    "color": {
+      "r": 0.74,
+      "g": 0.56,
+      "b": 0.56,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 1374891760000,
+    "popGrowthModifier": 1,
+    "initialFactionStr": null,
+    "cohesion": 7,
+    "unrest": "6",
+    "inequality": "3.15",
+    "democracy": 2.93,
+    "education": 8.18,
+    "spaceFunding_year": 10,
+    "miltech": 4.2,
+    "nuclearWeapons": 25,
+    "initSpaceIPs": 5,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 55,
+    "buildNavyIPs": 10,
+    "initialPriorityPreset": [
+      "Survival",
+      "Conservative",
+      "Authoritarian",
+      "Developing",
+      "Reactionary",
+      "Conservative"
+    ],
+    "ISOCodest": [
+      "EGY"
+    ]
+  },
+  {
+    "dataName": "ETH",
+    "friendlyName": "Abyssna",
+    "flagResource": "nationflags/Ethiopia",
+    "unionFlagResource": "nationflags/African_Union",
+    "unionTrigger": 4,
+    "color32": {
+      "r": 210,
+      "g": 105,
+      "b": 30
+    },
+    "color": {
+      "r": 0.82,
+      "g": 0.41,
+      "b": 0.12,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 809682560000,
+    "popGrowthModifier": null,
+    "initialFactionStr": null,
+    "cohesion": 2,
+    "unrest": "8",
+    "inequality": "3.5",
+    "democracy": 3.3,
+    "education": 3.41,
+    "spaceFunding_year": 120,
+    "miltech": 3.4,
+    "nuclearWeapons": 2,
+    "initSpaceIPs": 0,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 55,
+    "buildNavyIPs": 120,
+    "initialPriorityPreset": [
+      "Survival",
+      "Authoritarian",
+      "Authoritarian",
+      "Authoritarian",
+      "Authoritarian",
+      "Developing"
+    ],
+    "ISOCodest": [
+      "ETH"
+    ]
+  },
+  {
+    "dataName": "FRA",
+    "friendlyName": "Franc",
+    "flagResource": "nationflags/France",
+    "unionFlagResource": "nationflags/European_Union",
+    "unionTrigger": 3,
+    "color32": {
+      "r": 135,
+      "g": 206,
+      "b": 235
+    },
+    "color": {
+      "r": 0.53,
+      "g": 0.81,
+      "b": 0.92,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 3249098520000,
+    "popGrowthModifier": null,
+    "initialFactionStr": null,
+    "cohesion": 4,
+    "unrest": "2",
+    "inequality": "3.24",
+    "democracy": 6.99,
+    "education": 7.17,
+    "spaceFunding_year": 160,
+    "miltech": 3.9,
+    "nuclearWeapons": 7,
+    "initSpaceIPs": 50,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 4,
+    "buildNavyIPs": 160,
+    "initialPriorityPreset": [
+      "Survival",
+      "Technocratic",
+      "Socialist",
+      "Digitalization",
+      "Liberal",
+      "Technocratic"
+    ],
+    "ISOCodest": [
+      "FRA",
+      "MCO",
+      "AND"
+    ]
+  },
+  {
+    "dataName": "GEO",
+    "friendlyName": "The Ethnarchy",
+    "flagResource": "nationflags/Georgia",
+    "unionFlagResource": "1",
+    "unionTrigger": null,
+    "color32": {
+      "r": 14,
+      "g": 166,
+      "b": 35
+    },
+    "color": {
+      "r": 0.05,
+      "g": 0.65,
+      "b": 0.14,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 6660839680000,
+    "popGrowthModifier": null,
+    "initialFactionStr": null,
+    "cohesion": 9,
+    "unrest": "2",
+    "inequality": "7.45",
+    "democracy": 1.12,
+    "education": 10,
+    "spaceFunding_year": 0,
+    "miltech": 4.9,
+    "nuclearWeapons": 11,
+    "initSpaceIPs": 0,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 20,
+    "buildArmyIPs": 55,
+    "buildNavyIPs": 0,
+    "initialPriorityPreset": [
+      "Survival",
+      "Industrialization",
+      "Totalitarian",
+      "Totalitarian",
+      "Totalitarian",
+      "Totalitarian"
+    ],
+    "ISOCodest": [
+      "GEO"
+    ]
+  },
+  {
+    "dataName": "JER",
+    "friendlyName": "Jermani",
+    "flagResource": "nationflags/East_Germany",
+    "unionFlagResource": "nationflags/Germany",
+    "unionTrigger": 2,
+    "color32": {
+      "r": 87,
+      "g": 111,
+      "b": 99
+    },
+    "color": {
+      "r": 0.41,
+      "g": 0.52,
+      "b": 0.47,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 1637567440000,
+    "popGrowthModifier": -1,
+    "initialFactionStr": null,
+    "cohesion": 4,
+    "unrest": "1",
+    "inequality": "3.17",
+    "democracy": 4.67,
+    "education": 4.43,
+    "spaceFunding_year": 110,
+    "miltech": 4.2,
+    "nuclearWeapons": 2,
+    "initSpaceIPs": 40,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 50,
+    "buildNavyIPs": 110,
+    "initialPriorityPreset": [
+      "Survival",
+      "Technocratic",
+      "Green",
+      "Centrist",
+      "Technocratic",
+      "Socialist"
+    ],
+    "ISOCodest": [
+      "JER"
+    ]
+  },
+  {
+    "dataName": "BOE",
+    "friendlyName": "Boeotia",
+    "flagResource": "nationflags/Greece",
+    "unionFlagResource": "1",
+    "unionTrigger": null,
+    "color32": {
+      "r": 16,
+      "g": 118,
+      "b": 220
+    },
+    "color": {
+      "r": 0.06,
+      "g": 0.46,
+      "b": 0.86,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 2371795600000,
+    "popGrowthModifier": -0.5,
+    "initialFactionStr": null,
+    "cohesion": 8,
+    "unrest": "1",
+    "inequality": "6.29",
+    "democracy": 6.55,
+    "education": 7.47,
+    "spaceFunding_year": 2,
+    "miltech": 3.8,
+    "nuclearWeapons": 4,
+    "initSpaceIPs": 0,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 55,
+    "buildNavyIPs": 2,
+    "initialPriorityPreset": [
+      "Survival",
+      "Populist",
+      "Modernization",
+      "Socialist",
+      "Centrist",
+      "Populist"
+    ],
+    "ISOCodest": [
+      "GRC",
+      "CYP"
+    ]
+  },
+  {
+    "dataName": "IMP",
+    "friendlyName": "Himalazia",
+    "flagResource": "nationflags/Nepal",
+    "unionFlagResource": "1",
+    "unionTrigger": null,
+    "color32": {
+      "r": 220,
+      "g": 180,
+      "b": 130
+    },
+    "color": {
+      "r": 0.63,
+      "g": 0.8,
+      "b": 0.8,
+      "a": 0.05
+    },
+    "aggregateNation": true,
+    "initialGDP": 29999999990000,
+    "popGrowthModifier": 1,
+    "initialFactionStr": "ImperialCouncil",
+    "cohesion": 9.5,
+    "unrest": "0.25",
+    "inequality": "3",
+    "democracy": 5,
+    "education": 15,
+    "spaceFunding_year": 4380,
+    "miltech": 5,
+    "nuclearWeapons": 25,
+    "initSpaceIPs": 50,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 0,
+    "buildNavyIPs": 4380,
+    "initialPriorityPreset": [
+      "Imperial",
+      "Imperial",
+      "Imperial",
+      "Imperial",
+      "Imperial",
+      "Imperial"
+    ],
+    "ISOCodest": [
+      "IMP",
+      "BTN"
+    ]
+  },
+  {
+    "dataName": "IND",
+    "friendlyName": "Hive Cities of Indoi",
+    "flagResource": "nationflags/India",
+    "unionFlagResource": "1",
+    "unionTrigger": null,
+    "color32": {
+      "r": 255,
+      "g": 153,
+      "b": 51
+    },
+    "color": {
+      "r": 1,
+      "g": 0.6,
+      "b": 0.2,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 10335828800000,
+    "popGrowthModifier": null,
+    "initialFactionStr": null,
+    "cohesion": 3,
+    "unrest": "4",
+    "inequality": "3.57",
+    "democracy": 4.91,
+    "education": 5.55,
+    "spaceFunding_year": 80,
+    "miltech": 3,
+    "nuclearWeapons": 4,
+    "initSpaceIPs": 50,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 12,
+    "buildArmyIPs": 50,
+    "buildNavyIPs": 80,
+    "initialPriorityPreset": [
+      "Subsistence",
+      "Developing",
+      "Industrialization",
+      "Modernization",
+      "Conservative",
+      "Kleptocratic"
+    ],
+    "ISOCodest": [
+      "IND"
+    ]
+  },
+  {
+    "dataName": "IDN",
+    "friendlyName": "Yndonesic Bloc",
+    "flagResource": "nationflags/Indonesia",
+    "unionFlagResource": "nationflags/Indonesia",
+    "unionTrigger": 2,
+    "color32": {
+      "r": 255,
+      "g": 75,
+      "b": 75
+    },
+    "color": {
+      "r": 1,
+      "g": 0.27,
+      "b": 0.27,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 1519680560000,
+    "popGrowthModifier": null,
+    "initialFactionStr": null,
+    "cohesion": 9,
+    "unrest": "7",
+    "inequality": "6.7",
+    "democracy": 0.71,
+    "education": 1.5,
+    "spaceFunding_year": 12,
+    "miltech": 3.6,
+    "nuclearWeapons": 3,
+    "initSpaceIPs": 5,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 10,
+    "buildNavyIPs": 12,
+    "initialPriorityPreset": [
+      "Survival",
+      "Totalitarian",
+      "Totalitarian",
+      "Totalitarian",
+      "Totalitarian",
+      "Totalitarian"
+    ],
+    "ISOCodest": [
+      "IDN",
+      "TLS"
+    ]
+  },
+  {
+    "dataName": "EUR",
+    "friendlyName": "Europa",
+    "flagResource": "nationflags/Italy",
+    "unionFlagResource": "1",
+    "unionTrigger": null,
+    "color32": {
+      "r": 204,
+      "g": 137,
+      "b": 104
+    },
+    "color": {
+      "r": 0.8,
+      "g": 0.54,
+      "b": 0.41,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 3646313080000,
+    "popGrowthModifier": -1,
+    "initialFactionStr": null,
+    "cohesion": 5,
+    "unrest": "3",
+    "inequality": "4.52",
+    "democracy": 4.68,
+    "education": 7.93,
+    "spaceFunding_year": 65,
+    "miltech": 3.9,
+    "nuclearWeapons": 4,
+    "initSpaceIPs": 50,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 55,
+    "buildNavyIPs": 65,
+    "initialPriorityPreset": [
+      "Survival",
+      "Populist",
+      "Modernization",
+      "Socialist",
+      "Centrist",
+      "Populist"
+    ],
+    "ISOCodest": [
+      "EUR",
+      "MLT",
+      "SMR"
+    ]
+  },
+  {
+    "dataName": "NGA",
+    "friendlyName": "MidAfrik Hive Polity",
+    "flagResource": "nationflags/Nigeria",
+    "unionFlagResource": "nationflags/Nigeria",
+    "unionTrigger": 3,
+    "color32": {
+      "r": 0,
+      "g": 135,
+      "b": 81
+    },
+    "color": {
+      "r": 0,
+      "g": 0.53,
+      "b": 0.32,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 1116311680000,
+    "popGrowthModifier": null,
+    "initialFactionStr": null,
+    "cohesion": 3,
+    "unrest": "7",
+    "inequality": "3.51",
+    "democracy": 4.11,
+    "education": 4.99,
+    "spaceFunding_year": 3,
+    "miltech": 3.4,
+    "nuclearWeapons": 2,
+    "initSpaceIPs": 0,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 55,
+    "buildNavyIPs": 3,
+    "initialPriorityPreset": [
+      "Survival",
+      "Developing",
+      "Industrialization",
+      "Developing",
+      "Subsistence",
+      "Subsistence"
+    ],
+    "ISOCodest": [
+      "NGA"
+    ]
+  },
+  {
+    "dataName": "MLN",
+    "friendlyName": "Maullan Sen Confederacy",
+    "flagResource": "nationflags/Norway",
+    "unionFlagResource": "1",
+    "unionTrigger": null,
+    "color32": {
+      "r": 102,
+      "g": 205,
+      "b": 170
+    },
+    "color": {
+      "r": 0.4,
+      "g": 0.8,
+      "b": 0.67,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 1473006480000,
+    "popGrowthModifier": 0.5,
+    "initialFactionStr": null,
+    "cohesion": 7,
+    "unrest": "3",
+    "inequality": "4.77",
+    "democracy": 2.75,
+    "education": 4.3,
+    "spaceFunding_year": 400,
+    "miltech": 4.9,
+    "nuclearWeapons": 11,
+    "initSpaceIPs": 5,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 55,
+    "buildNavyIPs": 400,
+    "initialPriorityPreset": [
+      "Survival",
+      "Centrist",
+      "Liberal",
+      "Digitalization",
+      "Conservative",
+      "Green"
+    ],
+    "ISOCodest": [
+      "MLN"
+    ]
+  },
+  {
+    "dataName": "PER",
+    "friendlyName": "Maglev Clans of Panpocro",
+    "flagResource": "nationflags/Peru",
+    "unionFlagResource": "1",
+    "unionTrigger": 2,
+    "color32": {
+      "r": 205,
+      "g": 133,
+      "b": 63
+    },
+    "color": {
+      "r": 0.8,
+      "g": 0.52,
+      "b": 0.25,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 1452069200000,
+    "popGrowthModifier": null,
+    "initialFactionStr": null,
+    "cohesion": 4,
+    "unrest": "3",
+    "inequality": "4.38",
+    "democracy": 5.09,
+    "education": 6.4,
+    "spaceFunding_year": 3,
+    "miltech": 3.6,
+    "nuclearWeapons": 2,
+    "initSpaceIPs": 0,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 55,
+    "buildNavyIPs": 3,
+    "initialPriorityPreset": [
+      "Survival",
+      "Conservative",
+      "Conservative",
+      "Industrialization",
+      "Developing",
+      "Conservative"
+    ],
+    "ISOCodest": [
+      "PER"
+    ]
+  },
+  {
+    "dataName": "RSH",
+    "friendlyName": "Ursh",
+    "flagResource": "nationflags/Russia",
+    "unionFlagResource": "nationflags/Eurasian_Union",
+    "unionTrigger": 12,
+    "color32": {
+      "r": 200,
+      "g": 125,
+      "b": 200
+    },
+    "color": {
+      "r": 0.78,
+      "g": 0.49,
+      "b": 0.78,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 3841589840000,
+    "popGrowthModifier": -0.5,
+    "initialFactionStr": "SubmitCouncil",
+    "cohesion": 7,
+    "unrest": "5",
+    "inequality": "4.53",
+    "democracy": 3.24,
+    "education": 5.23,
+    "spaceFunding_year": 210,
+    "miltech": 4.5,
+    "nuclearWeapons": 30,
+    "initSpaceIPs": 50,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 55,
+    "buildNavyIPs": 210,
+    "initialPriorityPreset": [
+      "Survival",
+      "Digitalization",
+      "Kleptocratic",
+      "Authoritarian",
+      "Conservative",
+      "Modernization"
+    ],
+    "ISOCodest": [
+      "RSH"
+    ]
+  },
+  {
+    "dataName": "SEN",
+    "friendlyName": "Achaemenid Empire",
+    "flagResource": "nationflags/Saudi_Arabia",
+    "unionFlagResource": "1",
+    "unionTrigger": null,
+    "color32": {
+      "r": 0,
+      "g": 108,
+      "b": 53
+    },
+    "color": {
+      "r": 0,
+      "g": 0.42,
+      "b": 0.21,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 7762236960000,
+    "popGrowthModifier": 1,
+    "initialFactionStr": null,
+    "cohesion": 7,
+    "unrest": "1",
+    "inequality": "2.59",
+    "democracy": 2.08,
+    "education": 8.89,
+    "spaceFunding_year": 900,
+    "miltech": 4.1,
+    "nuclearWeapons": 5,
+    "initSpaceIPs": 50,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 50,
+    "buildNavyIPs": 900,
+    "initialPriorityPreset": [
+      "Survival",
+      "Reactionary",
+      "Authoritarian",
+      "Conservative",
+      "Conservative",
+      "Reactionary"
+    ],
+    "ISOCodest": [
+      "SAU"
+    ]
+  },
+  {
+    "dataName": "ZAF",
+    "friendlyName": "Sa'Afrik",
+    "flagResource": "nationflags/South_Africa",
+    "unionFlagResource": "1",
+    "unionTrigger": null,
+    "color32": {
+      "r": 240,
+      "g": 128,
+      "b": 128
+    },
+    "color": {
+      "r": 0.94,
+      "g": 0.5,
+      "b": 0.5,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 2841594160000,
+    "popGrowthModifier": null,
+    "initialFactionStr": null,
+    "cohesion": 4,
+    "unrest": "2",
+    "inequality": "4.22",
+    "democracy": 4.95,
+    "education": 6.14,
+    "spaceFunding_year": 2,
+    "miltech": 3.8,
+    "nuclearWeapons": 4,
+    "initSpaceIPs": 12,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 55,
+    "buildNavyIPs": 2,
+    "initialPriorityPreset": [
+      "Survival",
+      "Industrialization",
+      "Modernization",
+      "Conservative",
+      "Conservative",
+      "Centrist"
+    ],
+    "ISOCodest": [
+      "ZAF",
+      "LSO",
+      "SWZ"
+    ]
+  },
+  {
+    "dataName": "SDN",
+    "friendlyName": "Monastery Cities of Nabatae",
+    "flagResource": "nationflags/Sudan",
+    "unionFlagResource": "1",
+    "unionTrigger": null,
+    "color32": {
+      "r": 120,
+      "g": 105,
+      "b": 150
+    },
+    "color": {
+      "r": 0.47,
+      "g": 0.41,
+      "b": 0.59,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 1182455680000,
+    "popGrowthModifier": -0.5,
+    "initialFactionStr": null,
+    "cohesion": 2,
+    "unrest": "2",
+    "inequality": "2.42",
+    "democracy": 3.47,
+    "education": 6.45,
+    "spaceFunding_year": 0,
+    "miltech": 3.2,
+    "nuclearWeapons": 2,
+    "initSpaceIPs": 0,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 55,
+    "buildNavyIPs": 0,
+    "initialPriorityPreset": [
+      "Survival",
+      "Authoritarian",
+      "Totalitarian",
+      "Authoritarian",
+      "Reactionary",
+      "Kleptocratic"
+    ],
+    "ISOCodest": [
+      "SDN"
+    ]
+  },
+  {
+    "dataName": "THA",
+    "friendlyName": "Xeric Tribes",
+    "flagResource": "nationflags/Thailand",
+    "unionFlagResource": "nationflags/Southeast_Asian_Alliance",
+    "unionTrigger": 3,
+    "color32": {
+      "r": 0,
+      "g": 30,
+      "b": 128
+    },
+    "color": {
+      "r": 0,
+      "g": 0.18,
+      "b": 0.75,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 1298577280000,
+    "popGrowthModifier": -1,
+    "initialFactionStr": null,
+    "cohesion": 4,
+    "unrest": "3",
+    "inequality": "3.5",
+    "democracy": 4.04,
+    "education": 4.82,
+    "spaceFunding_year": 2,
+    "miltech": 3.3,
+    "nuclearWeapons": 2,
+    "initSpaceIPs": 0,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 55,
+    "buildNavyIPs": 2,
+    "initialPriorityPreset": [
+      "Survival",
+      "Authoritarian",
+      "Conservative",
+      "Developing",
+      "Industrialization",
+      "Developing"
+    ],
+    "ISOCodest": [
+      "THA"
+    ]
+  },
+  {
+    "dataName": "TUN",
+    "friendlyName": "Nordafrik Conclaves",
+    "flagResource": "nationflags/Tunisia",
+    "unionFlagResource": "1",
+    "unionTrigger": null,
+    "color32": {
+      "r": 40,
+      "g": 100,
+      "b": 20
+    },
+    "color": {
+      "r": 0.19,
+      "g": 0.47,
+      "b": 0.09,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 1131281920000,
+    "popGrowthModifier": null,
+    "initialFactionStr": null,
+    "cohesion": 6,
+    "unrest": "5",
+    "inequality": "3.28",
+    "democracy": 3.99,
+    "education": 6.61,
+    "spaceFunding_year": 0,
+    "miltech": 4.3,
+    "nuclearWeapons": 8,
+    "initSpaceIPs": 0,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 55,
+    "buildNavyIPs": 0,
+    "initialPriorityPreset": [
+      "Survival",
+      "Centrist",
+      "Conservative",
+      "Developing",
+      "Developing",
+      "Developing"
+    ],
+    "ISOCodest": [
+      "TUN"
+    ]
+  },
+  {
+    "dataName": "UAT",
+    "friendlyName": "Urartu",
+    "flagResource": "nationflags/Turkey",
+    "unionFlagResource": "nationflags/Turkestan",
+    "unionTrigger": 5,
+    "color32": {
+      "r": 178,
+      "g": 34,
+      "b": 34
+    },
+    "color": {
+      "r": 0.7,
+      "g": 0.13,
+      "b": 0.13,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 1826623360000,
+    "popGrowthModifier": null,
+    "initialFactionStr": null,
+    "cohesion": 7,
+    "unrest": "6",
+    "inequality": "3.19",
+    "democracy": 4.35,
+    "education": 7.31,
+    "spaceFunding_year": 14,
+    "miltech": 3.9,
+    "nuclearWeapons": 2,
+    "initSpaceIPs": 2,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 0,
+    "buildNavyIPs": 14,
+    "initialPriorityPreset": [
+      "Modernization",
+      "Conservative",
+      "Authoritarian",
+      "Industrialization",
+      "Conservative",
+      "Reactionary"
+    ],
+    "ISOCodest": [
+      "UAT"
+    ]
+  },
+  {
+    "dataName": "ALB",
+    "friendlyName": "Albia",
+    "flagResource": "nationflags/England",
+    "unionFlagResource": "nationflags/United_Kingdom",
+    "unionTrigger": 2,
+    "color32": {
+      "r": 204,
+      "g": 0,
+      "b": 0
+    },
+    "color": {
+      "r": 0.8,
+      "g": 0,
+      "b": 0,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 3301623600000,
+    "popGrowthModifier": null,
+    "initialFactionStr": null,
+    "cohesion": 7,
+    "unrest": "1",
+    "inequality": "2.51",
+    "democracy": 4.1,
+    "education": 8.28,
+    "spaceFunding_year": 40,
+    "miltech": 4.9,
+    "nuclearWeapons": 12,
+    "initSpaceIPs": 50,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 55,
+    "buildNavyIPs": 40,
+    "initialPriorityPreset": [
+      "Survival",
+      "Liberal",
+      "Centrist",
+      "Conservative",
+      "Conservative",
+      "Digitalization"
+    ],
+    "ISOCodest": [
+      "ALB",
+      "JEY",
+      "IMN"
+    ]
+  },
+  {
+    "dataName": "MER",
+    "friendlyName": "Merica",
+    "flagResource": "nationflags/United_States",
+    "unionFlagResource": "nationflags/United_States_of_NorthAmerica",
+    "unionTrigger": 14,
+    "color32": {
+      "r": 8,
+      "g": 60,
+      "b": 124
+    },
+    "color": {
+      "r": 0.05,
+      "g": 0.35,
+      "b": 0.73,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 11305188400000,
+    "popGrowthModifier": null,
+    "initialFactionStr": null,
+    "cohesion": 4,
+    "unrest": "3",
+    "inequality": "6.15",
+    "democracy": 7.85,
+    "education": 9,
+    "spaceFunding_year": 1000,
+    "miltech": 4.5,
+    "nuclearWeapons": 28,
+    "initSpaceIPs": 50,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 20,
+    "buildNavyIPs": 1000,
+    "initialPriorityPreset": [
+      "Survival",
+      "Reactionary",
+      "Digitalization",
+      "Centrist",
+      "Centrist",
+      "Liberal"
+    ],
+    "ISOCodest": [
+      "MER",
+      "PRI"
+    ]
+  },
+  {
+    "dataName": "URL",
+    "friendlyName": "Terawatt Clans",
+    "flagResource": "nationflags/Ural",
+    "unionFlagResource": "1",
+    "unionTrigger": null,
+    "color32": {
+      "r": 183,
+      "g": 255,
+      "b": 233
+    },
+    "color": {
+      "r": 0.72,
+      "g": 1,
+      "b": 0.91,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 12121212121212,
+    "popGrowthModifier": null,
+    "initialFactionStr": "MachineCouncil",
+    "cohesion": 9,
+    "unrest": "0",
+    "inequality": "1.5",
+    "democracy": 3,
+    "education": 18,
+    "spaceFunding_year": 4380,
+    "miltech": 5,
+    "nuclearWeapons": 24,
+    "initSpaceIPs": 49,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 12,
+    "buildArmyIPs": 12,
+    "buildNavyIPs": 4380,
+    "initialPriorityPreset": [
+      "Survival",
+      "Technocratic",
+      "Technocratic",
+      "Technocratic",
+      "Technocratic",
+      "Technocratic"
+    ],
+    "ISOCodest": [
+      "URL"
+    ]
+  },
+  {
+    "dataName": "POL",
+    "friendlyName": "Polish Tribes",
+    "flagResource": "nationflags/Poland",
+    "unionFlagResource": "nationflags/Slavic_Commonwealth",
+    "unionTrigger": null,
+    "color32": {
+      "r": 220,
+      "g": 20,
+      "b": 60
+    },
+    "color": {
+      "r": 0.86,
+      "g": 0.08,
+      "b": 0.24,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": null,
+    "popGrowthModifier": null,
+    "initialFactionStr": null,
+    "cohesion": null,
+    "unrest": "null",
+    "inequality": "null",
+    "democracy": null,
+    "education": null,
+    "spaceFunding_year": null,
+    "miltech": null,
+    "nuclearWeapons": null,
+    "initSpaceIPs": null,
+    "nuclearProgramIPs": null,
+    "buildNukeIPs": null,
+    "buildArmyIPs": null,
+    "buildNavyIPs": null,
+    "initialPriorityPreset": [
+      "Conservative",
+      "Populist",
+      "Modernization",
+      "Socialist",
+      "Centrist",
+      "Reactionary"
+    ],
+    "ISOCodest": [
+      "POL"
+    ]
+  },
+  {
+    "dataName": "OCT",
+    "friendlyName": "Oxitania",
+    "flagResource": "nationflags/Occitania",
+    "unionFlagResource": "1",
+    "unionTrigger": null,
+    "color32": {
+      "r": 230,
+      "g": 86,
+      "b": 97
+    },
+    "color": {
+      "r": 0.9,
+      "g": 0.34,
+      "b": 0.38,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 1826623360000,
+    "popGrowthModifier": null,
+    "initialFactionStr": null,
+    "cohesion": 8,
+    "unrest": "3",
+    "inequality": "3.19",
+    "democracy": 3.35,
+    "education": 6.31,
+    "spaceFunding_year": 14,
+    "miltech": 3.7,
+    "nuclearWeapons": 2,
+    "initSpaceIPs": 2,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 0,
+    "buildNavyIPs": 14,
+    "initialPriorityPreset": [
+      "Survival",
+      "Centrist",
+      "Conservative",
+      "Populist",
+      "Reactionary",
+      "Technocratic"
+    ],
+    "ISOCodest": [
+      "OCT"
+    ]
+  },
+  {
+    "dataName": "UZB",
+    "friendlyName": "Akkad",
+    "flagResource": "nationflags/Uzbekistan",
+    "unionFlagResource": "1",
+    "unionTrigger": null,
+    "color32": {
+      "r": 255,
+      "g": 69,
+      "b": 0
+    },
+    "color": {
+      "r": 1,
+      "g": 0.27,
+      "b": 0,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 986893200000,
+    "popGrowthModifier": null,
+    "initialFactionStr": null,
+    "cohesion": 8,
+    "unrest": "3",
+    "inequality": "6.53",
+    "democracy": 1.12,
+    "education": 5.29,
+    "spaceFunding_year": 120,
+    "miltech": 4.9,
+    "nuclearWeapons": 3,
+    "initSpaceIPs": 0,
+    "nuclearProgramIPs": 8,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 0,
+    "buildNavyIPs": 120,
+    "initialPriorityPreset": [
+      "Survival",
+      "Authoritarian",
+      "Authoritarian",
+      "Developing",
+      "Developing",
+      "Reactionary"
+    ],
+    "ISOCodest": [
+      "UZB"
+    ]
+  },
+  {
+    "dataName": "ABY",
+    "friendlyName": "Albyon",
+    "flagResource": "nationflags/Iceland",
+    "unionFlagResource": "1",
+    "unionTrigger": null,
+    "color32": {
+      "r": 255,
+      "g": 206,
+      "b": 231
+    },
+    "color": {
+      "r": 1,
+      "g": 0.81,
+      "b": 0.91,
+      "a": 0.05
+    },
+    "aggregateNation": false,
+    "initialGDP": 724197000000,
+    "popGrowthModifier": null,
+    "initialFactionStr": null,
+    "cohesion": 8,
+    "unrest": "0",
+    "inequality": "3.61",
+    "democracy": 3.18,
+    "education": 7.26,
+    "spaceFunding_year": 110,
+    "miltech": 3.4,
+    "nuclearWeapons": 2,
+    "initSpaceIPs": 0,
+    "nuclearProgramIPs": 80,
+    "buildNukeIPs": 0,
+    "buildArmyIPs": 0,
+    "buildNavyIPs": 110,
+    "initialPriorityPreset": [
+      "Survival",
+      "Socialist",
+      "Digitalization",
+      "Liberal",
+      "Liberal",
+      "Socialist"
+    ],
+    "ISOCodest": [
+      "ABY"
+    ]
+  }
+]

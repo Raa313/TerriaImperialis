@@ -1,0 +1,405 @@
+[
+  {
+    "dataName": "Tech_VanillaBlocker1",
+    "friendlyName": "Forbidden Knowledge (Vanilla Blocker)",
+    "techCategory": "SocialScience",
+    "AI_techRole": "None",
+    "AI_criticalTech": false,
+    "endGameTech": false,
+    "researchCost": 25000,
+    "prereqs": [
+      ""
+    ],
+    "altPrereq0": "",
+    "effects": [
+      ""
+    ],
+    "iconResource": "",
+    "completedIllustrationPath": "",
+    "voiceoverPath": ""
+  },
+  {
+    "dataName": "Tech_VanillaBlocker2",
+    "friendlyName": "Folly in the Pursuit of Knowledge (Vanilla Blocker)",
+    "techCategory": "SocialScience",
+    "AI_techRole": "None",
+    "AI_criticalTech": false,
+    "endGameTech": false,
+    "researchCost": 625000000,
+    "prereqs": [
+      "Tech_VanillaBlocker1"
+    ],
+    "altPrereq0": "",
+    "effects": [
+      ""
+    ],
+    "iconResource": "",
+    "completedIllustrationPath": "",
+    "voiceoverPath": ""
+  },
+  {
+    "dataName": "Tech_VanillaBlocker3",
+    "friendlyName": "Bittersweet Truth (Vanilla Blocker)",
+    "techCategory": "SocialScience",
+    "AI_techRole": "None",
+    "AI_criticalTech": false,
+    "endGameTech": false,
+    "researchCost": 390625000000000000,
+    "prereqs": [
+      "Tech_VanillaBlocker2"
+    ],
+    "altPrereq0": "",
+    "effects": [
+      ""
+    ],
+    "iconResource": "",
+    "completedIllustrationPath": "",
+    "voiceoverPath": ""
+  },
+  {
+    "friendlyName": "Mission To Space",
+    "dataName": "MissionToSpace",
+    "techCategory": "SpaceScience",
+    "AI_techRole": "SpaceDevelopment",
+    "AI_criticalTech": true,
+    "endGameTech": null,
+    "researchCost": 250,
+    "prereqs": [
+      "Tech_VanillaBlocker3",
+      "",
+      ""
+    ],
+    "altPrereq0": "",
+    "year": "",
+    "effects": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "iconResource": "",
+    "completedIllustrationPath": "",
+    "voiceoverPath": ""
+  },
+  {
+    "friendlyName": "Skywatch",
+    "dataName": "Skywatch",
+    "techCategory": "SpaceScience",
+    "AI_techRole": "FactionObjective",
+    "AI_criticalTech": true,
+    "endGameTech": null,
+    "researchCost": 250,
+    "prereqs": [
+      "Tech_VanillaBlocker3",
+      "",
+      ""
+    ],
+    "altPrereq0": "",
+    "year": "",
+    "effects": [
+      "Effect_Skywatch",
+      "Effect_SpaceScan",
+      "",
+      ""
+    ],
+    "iconResource": "",
+    "completedIllustrationPath": "",
+    "voiceoverPath": ""
+  },
+  {
+    "friendlyName": "We Are Not Alone",
+    "dataName": "WeAreNotAlone",
+    "techCategory": "SocialScience",
+    "AI_techRole": "EarthPolitics",
+    "AI_criticalTech": true,
+    "endGameTech": null,
+    "researchCost": 500,
+    "prereqs": [
+      "Tech_VanillaBlocker3",
+      "",
+      ""
+    ],
+    "altPrereq0": "",
+    "year": "",
+    "effects": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "iconResource": "",
+    "completedIllustrationPath": "",
+    "voiceoverPath": ""
+  },
+  {
+    "friendlyName": "Advanced Magnetics",
+    "dataName": "AdvancedMagnetics",
+    "techCategory": "Energy",
+    "AI_techRole": "SpaceDevelopment",
+    "AI_criticalTech": true,
+    "endGameTech": null,
+    "researchCost": 1000,
+    "prereqs": [
+      "Tech_VanillaBlocker3",
+      "",
+      ""
+    ],
+    "altPrereq0": "",
+    "year": "",
+    "effects": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "iconResource": "",
+    "completedIllustrationPath": "",
+    "voiceoverPath": ""
+  },
+  {
+    "friendlyName": "Advanced Chemical Rocketry",
+    "dataName": "AdvancedChemicalRocketry",
+    "techCategory": "Materials",
+    "AI_techRole": "SpaceDevelopment",
+    "AI_criticalTech": null,
+    "endGameTech": null,
+    "researchCost": 1000,
+    "prereqs": [
+      "Tech_VanillaBlocker3",
+      "",
+      ""
+    ],
+    "altPrereq0": "",
+    "year": "",
+    "effects": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "iconResource": "",
+    "completedIllustrationPath": "",
+    "voiceoverPath": ""
+  },
+  {
+    "friendlyName": "Advanced Carbon Manipulation",
+    "dataName": "AdvancedCarbonManipulation",
+    "techCategory": "Materials",
+    "AI_techRole": "SpaceDevelopment",
+    "AI_criticalTech": null,
+    "endGameTech": null,
+    "researchCost": 1000,
+    "prereqs": [
+      "Tech_VanillaBlocker3",
+      "",
+      ""
+    ],
+    "altPrereq0": "",
+    "year": "",
+    "effects": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "iconResource": "",
+    "completedIllustrationPath": "",
+    "voiceoverPath": ""
+  },
+  {
+    "friendlyName": "High-Energy Lasers",
+    "dataName": "HighEnergyLasers",
+    "techCategory": "Energy",
+    "AI_techRole": "SpaceWar",
+    "AI_criticalTech": null,
+    "endGameTech": null,
+    "researchCost": 1000,
+    "prereqs": [
+      "Tech_VanillaBlocker3",
+      "",
+      ""
+    ],
+    "altPrereq0": "",
+    "year": "",
+    "effects": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "iconResource": "",
+    "completedIllustrationPath": "",
+    "voiceoverPath": ""
+  },
+  {
+    "friendlyName": "Photonic Computing",
+    "dataName": "PhotonicComputing",
+    "techCategory": "InformationScience",
+    "AI_techRole": "Efficiency",
+    "AI_criticalTech": null,
+    "endGameTech": null,
+    "researchCost": 1500,
+    "prereqs": [
+      "Tech_VanillaBlocker3",
+      "",
+      ""
+    ],
+    "altPrereq0": "",
+    "year": "",
+    "effects": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "iconResource": "",
+    "completedIllustrationPath": "",
+    "voiceoverPath": ""
+  },
+  {
+    "friendlyName": "Biotechnology",
+    "dataName": "Biotechnology",
+    "techCategory": "LifeScience",
+    "AI_techRole": "EarthPolitics",
+    "AI_criticalTech": null,
+    "endGameTech": null,
+    "researchCost": 1500,
+    "prereqs": [
+      "Tech_VanillaBlocker3",
+      "",
+      ""
+    ],
+    "altPrereq0": "",
+    "year": "",
+    "effects": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "iconResource": "",
+    "completedIllustrationPath": "",
+    "voiceoverPath": ""
+  },
+  {
+    "friendlyName": "Augmented Reality",
+    "dataName": "AugmentedReality",
+    "techCategory": "InformationScience",
+    "AI_techRole": "Efficiency",
+    "AI_criticalTech": null,
+    "endGameTech": null,
+    "researchCost": 1500,
+    "prereqs": [
+      "Tech_VanillaBlocker3",
+      "",
+      ""
+    ],
+    "altPrereq0": "",
+    "year": "",
+    "effects": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "iconResource": "",
+    "completedIllustrationPath": "",
+    "voiceoverPath": ""
+  },
+  {
+    "dataName": "Tech_TheStormHasPassed",
+    "friendlyName": "The Storm Has Passed",
+    "techCategory": "SocialScience",
+    "AI_techRole": "EarthPolitics",
+    "AI_criticalTech": true,
+    "endGameTech": false,
+    "researchCost": 500,
+    "prereqs": [
+      ""
+    ],
+    "altPrereq0": "",
+    "effects": [
+      ""
+    ],
+    "iconResource": "",
+    "completedIllustrationPath": "",
+    "voiceoverPath": ""
+  },
+  {
+    "dataName": "Tech_CelestialVigillance",
+    "friendlyName": "Celestial Vigilance",
+    "techCategory": "SpaceScience",
+    "AI_techRole": "FactionObjective",
+    "AI_criticalTech": true,
+    "endGameTech": false,
+    "researchCost": 500,
+    "prereqs": [
+      ""
+    ],
+    "altPrereq0": "",
+    "effects": [
+      "Effect_Skywatch",
+      "Effect_SpaceScan"
+    ],
+    "iconResource": "",
+    "completedIllustrationPath": "",
+    "voiceoverPath": ""
+  },
+  {
+    "dataName": "Tech_AwakenTheFleets",
+    "friendlyName": "Awaken The Fleets",
+    "techCategory": "SpaceScience",
+    "AI_techRole": "SpaceDevelopment",
+    "AI_criticalTech": true,
+    "endGameTech": false,
+    "researchCost": 500,
+    "prereqs": [
+      ""
+    ],
+    "altPrereq0": "",
+    "effects": [
+      ""
+    ],
+    "iconResource": "",
+    "completedIllustrationPath": "",
+    "voiceoverPath": ""
+  },
+  {
+    "dataName": "Tech_RecruitAdepts",
+    "friendlyName": "Recruit Adepts",
+    "techCategory": "SocialScience",
+    "AI_techRole": "EarthPolitics",
+    "AI_criticalTech": false,
+    "endGameTech": false,
+    "researchCost": 1000,
+    "prereqs": [
+      "Tech_TheStormHasPassed"
+    ],
+    "altPrereq0": "",
+    "effects": [
+      ""
+    ],
+    "iconResource": "",
+    "completedIllustrationPath": "",
+    "voiceoverPath": ""
+  },
+  {
+    "dataName": "Tech_AdvancedOrganizations",
+    "friendlyName": "Reform Institutions",
+    "techCategory": "SocialScience",
+    "AI_techRole": "EarthPolitics",
+    "AI_criticalTech": false,
+    "endGameTech": false,
+    "researchCost": 2000,
+    "prereqs": [
+      "Tech_RecruitAdepts"
+    ],
+    "altPrereq0": "",
+    "effects": [
+      ""
+    ],
+    "iconResource": "",
+    "completedIllustrationPath": "",
+    "voiceoverPath": ""
+  }
+]
