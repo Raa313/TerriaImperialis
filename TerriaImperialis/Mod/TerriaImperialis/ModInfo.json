@@ -8,6 +8,5 @@
 	"ManagerVersion": "0.25.0.0",
 	"AssemblyName": "TerriaImperialis.dll",
 	"EntryMethod": "TerriaImperialis.Main.Load",
-	//"ModURL": "https://steamcommunity.com/sharedfiles/filedetails/?id=2881755836",
 	"Description": "Under development-Fight to unify Terra and then the Sol system as the Emperor of Mankind, or search for humanity's lost technologic heritage as the Mechanicum of Mars in this simulation of the Unification Wars of the 30th millennium. "
 }

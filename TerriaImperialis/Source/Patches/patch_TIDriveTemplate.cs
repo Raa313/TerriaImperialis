@@ -17,22 +17,12 @@ namespace PavonisInteractive.TerraInvicta
         {
             Log.Debug("modelResource() called");
             string text = orig_modelResource(hull, appearanceIndex);
+            if(text.Contains("ShipHullEscortImperialSkylance"))
+            {
+                text = text.Replace("ShipHullEscortImperialSkylance", "Escort");
+            }
             Log.Debug($"modelResource() returned: {text}");
             return text;
         }
-
-        //public extern string modelResource(TIShipHullTemplate hull, int appearanceIndex = 0);
-
-        //public string modelResource()
-        //{
-        //    Log.Debug("modelResource() called", Array.Empty<object>());
-        //    string text = modelResource();
-        //    if (text.Contains("ShipHullEscortImperialSkylance"))
-        //    {
-        //        text = text.Replace("ShipHullEscortImperialSkylance", "Escort");
-        //    }
-        //    return text;
-        //}
     }
-
 }
