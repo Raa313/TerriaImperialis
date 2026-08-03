@@ -8,30 +8,10 @@ using UnityEngine;
 
 namespace PavonisInteractive.TerraInvicta {
     public class patch_TIFactionState : TIFactionState {
-        //extern void orig_NewCampaign();
-        //public void NewCampaign()
-        //{
-        //    System.IO.File.AppendAllText(
-        //        @"C:\Users\Kaise\Desktop\ti_debug.txt",
-        //        $"{System.DateTime.Now:O} - Entered NewCampaign\n");
-
-        //    Log.Debug("Entered patch_TIFactionState.NewCampaign()");
-        //    BepInEx.Logging.Logger.CreateLogSource("TerriaImperialis").LogDebug("Before NewCampaign");
-        //    orig_NewCampaign();
-        //    Log.Debug("Finished patch_TIFactionState.NewCampaign()");
-        //}
 
         [MonoModIgnore][SerializeField] private bool gameStateSubjectCreated;
         [MonoModReplace]
         public void NewCampaign() {
-            //IL_0775: Unknown result type (might be due to invalid IL or missing references)
-            //IL_0781: Expected O, but got Unknown
-            //IL_075e: Unknown result type (might be due to invalid IL or missing references)
-            //IL_076a: Expected O, but got Unknown
-            //IL_05d0: Unknown result type (might be due to invalid IL or missing references)
-            //IL_05e2: Expected O, but got Unknown
-            //IL_06dd: Unknown result type (might be due to invalid IL or missing references)
-            //IL_06ea: Expected O, but got Unknown
             if (gameStateSubjectCreated) {
                 return;
             }
