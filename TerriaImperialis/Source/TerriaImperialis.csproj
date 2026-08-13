@@ -114,8 +114,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Patches\patch_FactionIdeology.cs" />
+    <Compile Include="Patches\patch_fsEnumConverter.cs" />
+    <Compile Include="Patches\patch_GameStateManager.cs" />
     <Compile Include="Patches\patch_TICouncilorState.cs" />
-    <Compile Include="Patches\patch_TIDriveTemplate.cs" />
     <Compile Include="Patches\patch_TIFactionState.cs" />
     <Compile Include="Patches\patch_TINationState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
