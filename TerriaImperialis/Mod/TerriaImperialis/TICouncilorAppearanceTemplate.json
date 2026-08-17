@@ -1,0 +1,26 @@
+[
+    {
+        "dataName": "ImperialisCharImage1",
+        "string": "F_AFR_01",
+        "enable": true,
+        "idleVideoYoung": "charactervideos/F_AFR_01",
+        "idleVideoOld": "charactervideos/F_AFR_01_Old",
+        "portraitYoung": "characterportraits/F_AFR_01",
+        "portraitOld": "characterportraits/F_AFR_01_Old",
+        "iconYoung": "charactericons/F_AFR_01_icon",
+        "iconOld": "charactericons/F_AFR_01_Old_icon",
+        "allowedGenders": [
+            "Female",
+            "Nonbinary"
+        ],
+        "allowedAncestries": [
+            "African"
+        ],
+        "allowedJobNames": [
+            "Cosmonaut",
+            "Psyker",
+            "Xenos"
+        ]
+    }
+
+]

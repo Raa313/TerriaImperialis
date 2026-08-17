@@ -2,33 +2,33 @@
 	{
 		"dataName": "ImperialPlayer",
 		"council": "ImperialCouncil"
-	},	
+	},
 	{
 		"dataName": "MachinePlayer",
 		"council": "MachineCouncil"
 	},
 	{
-		"dataName": "SlavePlayer",
-		"council": "SlaveCouncil"
-	},	
-	{
-		"dataName": "GenePlayer",
-		"council": "GeneCouncil"
+		"dataName": "GeneCultPlayer",
+		"council": "GeneCultCouncil"
 	},
 	{
-		"dataName": "SaturnPlayer",
-		"council": "SaturnCouncil"
+		"dataName": "EthnarchyPlayer",
+		"council": "EthnarchyCouncil"
 	},
 	{
-		"dataName": "Vault_UnalignedHumansPlayer",
-		"council": "Vault_UnalignedHumansCouncil"
+		"dataName": "MaullandPlayer",
+		"council": "MaullandCouncil"
 	},
 	{
-		"dataName": "Vault_OldNightPlayer",
-		"council": "Vault_OldNightCouncil"
+		"dataName": "HyBrasilPlayer",
+		"council": "HyBrasilCouncil"
 	},
 	{
-		"dataName": "OrkPlayer",
-		"council": "OrkCouncil"
-	} 	 	
+		"dataName": "SolarPlayer",
+		"council": "SolarCouncil"
+	},
+	{
+		"dataName": "XenosPlayer",
+		"council": "XenosCouncil"
+	}
 ]

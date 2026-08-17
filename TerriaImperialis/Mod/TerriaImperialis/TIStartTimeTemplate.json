@@ -1,58 +1,65 @@
 [
- {
-   "dataName": "UnificationWars30kStart",
-   "year": 2549,
-   "month": 12,
-   "day": 31,
-   "hour": 23,
-   "minute": 59,
-   "second": 59,
-   "bonusMoney": 0,
-   "bonusInfluence": 0,
-   "bonusOps": 0,
-   "bonusBoost": 0,
-   "bonusMissionControl": 0,
-   "bonusWater": 0,
-   "bonusVolatiles": 0,
-   "bonusMetals": 0,
-   "bonusNobles": 0,
-   "bonusFissiles": 0,
-   "bonusAntimatter": 0,
-   "bonusExotics": 0,
-   "initialCrashdownRegionTemplateName": "random",
-   "initialAtmosphericCO2_ppm": 419,
-   "initialAtmosphericCH4_ppm": 1.91,
-   "initialAtmosphericN2O_ppm": 0.3348,
-   "initialStratosphericAerosols_ppm": 0,
-   "initialGlobalSeaLevelAnomaly_cm": 24,
-   "startingTechs": [
-      "WeAreNotAlone",
-      "Skywatch",
-      "MissionToSpace"
-   ],
-   "globalTechsCompleted": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "projectsCompleted": [
-      "Project_Solid-FuelSpaceRockets",
-      "Project_Liquid-FuelRockets",
-      "Project_CryogenicLiquid-FuelRockets",
-      "Project_LifeScienceLab",
-      "Project_MaterialsLab",
-      "Project_PlatformCore",
-      "Project_SolarCollector",
-      "Project_SpaceScienceLab",
-      "Project_DesignTemplateShipSkylanceGunship",
-      "Project_Warships"      
-   ],
-   "startingShipDesigns": [
-      "SpaceShipTemplateImperialSkylanceGunship"
-   ]
-}
+    {
+        "dataName": "Imperialis30kStart",
+        "year": 2549,
+        "month": 12,
+        "day": 31,
+        "hour": 23,
+        "minute": 59,
+        "second": 59,
+        "bonusMoney": 0,
+        "bonusInfluence": 0,
+        "bonusOps": 0,
+        "bonusBoost": 0,
+        "bonusMissionControl": 0,
+        "bonusWater": 0,
+        "bonusVolatiles": 0,
+        "bonusMetals": 0,
+        "bonusNobles": 0,
+        "bonusFissiles": 0,
+        "bonusAntimatter": 0,
+        "bonusExotics": 0,
+        "initialCrashdownRegionTemplateName": "random",
+        "initialAtmosphericCO2_ppm": 419,
+        "initialAtmosphericCH4_ppm": 1.91,
+        "initialAtmosphericN2O_ppm": 0.3348,
+        "initialStratosphericAerosols_ppm": 0,
+        "initialGlobalSeaLevelAnomaly_cm": 24,
+        "initialLooseNukes": 0,
+        "globalStartingGDPScaling": 1,
+        "distributeFactionlessHabsAndFleets": false,
+        "startingTechs": [
+            "WeAreNotAlone",
+            "Skywatch",
+            "MissionToSpace"
+        ],
+        "techTreeUIStarters": [
+            "WeAreNotAlone",
+            "MissionToSpace"
+        ],
+        "startingShipDesigns": [
+            "SpaceShipTemplateImperialSkylanceGunship"
+        ],
+        "projectsCompleted": [
+            "Project_Solid-FuelSpaceRockets",
+            "Project_Liquid-FuelRockets",
+            "Project_CryogenicLiquid-FuelRockets",
+            "Project_LifeScienceLab",
+            "Project_MaterialsLab",
+            "Project_PlatformCore",
+            "Project_SolarCollector",
+            "Project_SpaceScienceLab",
+            "Project_DesignTemplateShipSkylanceGunship",
+            "Project_Warships"
+        ],
+        "startingAlienCouncilorFleets": [
+            "alienFleet12020",
+            "alienFleet22020",
+            "alienFleet32020",
+            "alienFleet42020",
+            "alienFleet52020"
+        ],
+        "scaleCPMaintenanceWithStartingGDP": true,
+        "scaleEconomyDefenseWithStartingGDP": true
+    }
 ]

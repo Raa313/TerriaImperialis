@@ -153,6 +153,7 @@ namespace PavonisInteractive.TerraInvicta {
 
         public override void PostVisualizerCreationInit_7() {
             if (!gameStateSubjectCreated) {
+                Log.Debug("PostVisualizerCreationInit_7: gameStateSubjectCreated is false, initializing faction state");
                 TIFactionState[] array = GameStateManager.AllFactions();
                 foreach (TIFactionState enemyCouncil in array) {
                     GainFactionHate(enemyCouncil, 0f, cantConflagrate: false, "Initialization");
@@ -164,6 +165,7 @@ namespace PavonisInteractive.TerraInvicta {
                         break;
                     }
                 }
+                Log.Debug("PostVisualizerCreationInit_7: Logging campaign start and unlocked objectives");
                 if (!GameControl.control.skirmishMode) {
                     if (tIRegionUFOCrashdownState != null) {
                         TINotificationQueueState.LogCampaignStart(this, tIRegionUFOCrashdownState.region);
@@ -192,12 +194,14 @@ namespace PavonisInteractive.TerraInvicta {
                                 OnProjectComplete(item3, -1, suppressLogging: true);
                             }
                         }
+                        Debug.Log("PostVisualizerCreationInit_7: Checking for completed projects");
                         foreach (string item4 in GameStateManager.Time().template.projectsCompleted.Where((string x) => !string.IsNullOrEmpty(x))) {
                             TIProjectTemplate tIProjectTemplate = TemplateManager.Find<TIProjectTemplate>(item4);
                             if (tIProjectTemplate.FactionPrereqsSatisfied(this)) {
                                 OnProjectComplete(tIProjectTemplate, -1, suppressLogging: true);
                             }
                         }
+                        Log.Debug("PostVisualizerCreationInit_7: Checking for available projects");
                         if (!IsAlienFaction) {
                             foreach (TIProjectTemplate item5 in TemplateManager.IterateByClass<TIProjectTemplate>()) {
                                 List<string> prereqs = item5.prereqs;
