@@ -13,6 +13,10 @@ namespace PavonisInteractive.TerraInvicta {
         [SerializeField]
         private bool gameStateSubjectCreated;
 
+        [MonoModIgnore]
+        [SerializeField]
+        private List<T> objectives;
+
 
         [MonoModReplace]
         public void NewCampaign() {
@@ -152,6 +156,7 @@ namespace PavonisInteractive.TerraInvicta {
         }
 
         public override void PostVisualizerCreationInit_7() {
+            Log.Debug(" ------ PostVisualizerCreationInit_7 ------ ");
             if (!gameStateSubjectCreated) {
                 Log.Debug("PostVisualizerCreationInit_7: gameStateSubjectCreated is false, initializing faction state");
                 TIFactionState[] array = GameStateManager.AllFactions();
