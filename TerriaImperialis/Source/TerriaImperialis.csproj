@@ -122,10 +122,8 @@
     <Compile Include="Patches\patch_TINationState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <None Include="Compare\TIObjectiveTemplate.json" />
-    <None Include="Compare\TISpaceShipTemplate.json" />
+    <Folder Include="Compare\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

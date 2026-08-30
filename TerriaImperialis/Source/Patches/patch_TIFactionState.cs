@@ -1,4 +1,5 @@
-﻿using MonoMod;
+﻿using FullSerializer;
+using MonoMod;
 using PavonisInteractive.TerraInvicta.Tasks;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,12 +11,13 @@ namespace PavonisInteractive.TerraInvicta {
     internal class patch_TIFactionState : TIFactionState {
 
         [MonoModIgnore]
+        [MonoModPublic]
         [SerializeField]
         private bool gameStateSubjectCreated;
 
         [MonoModIgnore]
-        [SerializeField]
-        private List<T> objectives;
+        [fsIgnore]
+        private Dictionary<TIObjectiveTemplate, ObjectiveStatus> objectives;
 
 
         [MonoModReplace]
@@ -155,8 +157,11 @@ namespace PavonisInteractive.TerraInvicta {
             Log.Debug("Ship designs saved");
         }
 
+        public extern void orig_PostVisualizerCreationInit_7();
         public override void PostVisualizerCreationInit_7() {
             Log.Debug(" ------ PostVisualizerCreationInit_7 ------ ");
+            //orig_PostVisualizerCreationInit_7();
+            //Log.Debug("PostVisualizerCreationInit_7 FINISHED");
             if (!gameStateSubjectCreated) {
                 Log.Debug("PostVisualizerCreationInit_7: gameStateSubjectCreated is false, initializing faction state");
                 TIFactionState[] array = GameStateManager.AllFactions();
@@ -201,6 +206,7 @@ namespace PavonisInteractive.TerraInvicta {
                         }
                         Debug.Log("PostVisualizerCreationInit_7: Checking for completed projects");
                         foreach (string item4 in GameStateManager.Time().template.projectsCompleted.Where((string x) => !string.IsNullOrEmpty(x))) {
+                            Log.Debug("PostVisualizerCreationInit_7: Checking for completed project " + item4);
                             TIProjectTemplate tIProjectTemplate = TemplateManager.Find<TIProjectTemplate>(item4);
                             if (tIProjectTemplate.FactionPrereqsSatisfied(this)) {
                                 OnProjectComplete(tIProjectTemplate, -1, suppressLogging: true);
@@ -221,6 +227,7 @@ namespace PavonisInteractive.TerraInvicta {
                     }
                 }
             }
+            Log.Debug("PostVisualizerCreationInit_7: After if(gameStateSubjectCreated");
             foreach (TISpaceShipTemplate shipDesign in shipDesigns) {
                 shipDesign.CacheTemplateValues();
             }
