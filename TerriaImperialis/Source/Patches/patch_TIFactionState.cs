@@ -86,8 +86,7 @@ namespace PavonisInteractive.TerraInvicta {
                 int aliensPreferredCouncilorCount = AIEvaluators.GetAliensPreferredCouncilorCount();
                 for (int num = 0; num < aliensPreferredCouncilorCount; num++) {
                     TICouncilorState tICouncilorState = GameStateManager.CreateNewGameState<TICouncilorState>();
-                    //tICouncilorState.InitWithTemplate(TemplateManager.Find<TICouncilorTemplate>("randomizedAlienCouncilor1"));
-                    tICouncilorState.InitWithTemplate(TemplateManager.Find<TICouncilorTemplate>("randomizedAlienCouncilor3"));
+                    tICouncilorState.InitWithTemplate(TemplateManager.Find<TICouncilorTemplate>("randomizedAlienCouncilor1"));
                     tICouncilorState.NewCharacterGeneration(null, null, this, forceMaxStats: false, startup: true);
                     tICouncilorState.location.ref_hab.DepartCouncilor(tICouncilorState);
                     tICouncilorState.SetFaction(this);
@@ -157,7 +156,6 @@ namespace PavonisInteractive.TerraInvicta {
             Log.Debug("Ship designs saved");
         }
 
-        public extern void orig_PostVisualizerCreationInit_7();
         public override void PostVisualizerCreationInit_7() {
             Log.Debug(" ------ PostVisualizerCreationInit_7 ------ ");
             //orig_PostVisualizerCreationInit_7();
