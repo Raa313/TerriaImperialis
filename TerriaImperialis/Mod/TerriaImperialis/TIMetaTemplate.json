@@ -20,8 +20,8 @@
 		"friendlyName": "Imperialis Solar System",
 		"templateType": "TIMetaTemplate",
 		"isNewCampaignOption": true,
-		"optionPriority": 3,
-		"listPriority": 7,
+		"optionPriority": 1,
+		"listPriority": 1,
 		"newCampaignOptionCategory": "SolarSystem",
 		"templateNames": [
 			"CompleteSolarSystemBodies",
@@ -38,8 +38,8 @@
 		"dataName": "ImperialisFactions",
 		"templateType": "TIMetaTemplate",
 		"isNewCampaignOption": true,
-		"optionPriority": 3,
-		"listPriority": 7,
+		"optionPriority": 1,
+		"listPriority": 1,
 		"newCampaignOptionCategory": "FactionCouncils",
 		"templateNames": [
 			"Imperialis8Councils",
@@ -94,7 +94,7 @@
 		"isNewCampaignOption": true,
 		"tutorialAllowed": true,
 		"optionPriority": 1,
-		"listPriority": 2,
+		"listPriority": 1,
 		"templateType": "TIMetaTemplate",
 		"templateNames": [
 			"ImperialisStartTime",

@@ -12,8 +12,15 @@ namespace PavonisInteractive.TerraInvicta {
     internal class patch_TemplateManager : TemplateManager {
 
 
+        //[MonoModIgnore]
+        //private bool foundGlobal;
+
         [MonoModIgnore]
         private bool foundGlobal;
+
+        public ref bool ref_foundGlobal() {
+            return ref foundGlobal;
+        }
 
         [MonoModIgnore]
         private static JsonController jController = new JsonController();
@@ -24,7 +31,7 @@ namespace PavonisInteractive.TerraInvicta {
             string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(templateFile);
             Type type = FindDataTemplateType(fileNameWithoutExtension);
             if (type == typeof(TIGlobalConfig)) {
-                self.foundGlobal = true;
+                ((patch_TemplateManager)self).ref_foundGlobal() = true;
             }
             if (type == null) {
                 Debug.LogError("templateType is null for " + templateFile);
@@ -44,7 +51,8 @@ namespace PavonisInteractive.TerraInvicta {
                         if (item.TemplatesToReplaceArrays != null && item.TemplatesToReplaceArrays.Contains(fileNameWithoutExtension + ".json")) {
                             mergeArrayMode = MergeArrayHandling.Replace;
                         }
-                        list = ((item.TemplatesToReplace == null || !item.TemplatesToReplace.Contains(fileNameWithoutExtension + ".json")) ? jController.CombineJson(list, item.FileContents, dlcFile, mergeArrayMode) : item.FileContents);
+                        list = ((item.TemplatesToReplace == null || !item.TemplatesToReplace.Contains(fileNameWithoutExtension + ".json")) ?
+                            jController.CombineJson(list, item.FileContents, dlcFile, mergeArrayMode) : item.FileContents);
                         Debug.Log("Successfully Merged Mod Template: " + item.ModFilePath);
                         item.SetFoundMatch();
                     }

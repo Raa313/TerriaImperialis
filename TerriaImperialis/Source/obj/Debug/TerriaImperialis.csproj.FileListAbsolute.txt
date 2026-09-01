@@ -12,3 +12,4 @@ C:\Users\Kaise\source\repos\TerriaImperialis\TerriaImperialis\Source\obj\Debug\A
 C:\Users\Kaise\source\repos\TerriaImperialis\TerriaImperialis\Source\obj\Debug\Assembly-CSharp.TerriaImperialis.mm.pdb
 C:\Users\Kaise\source\repos\TerriaImperialis\TerriaImperialis\Mod\TerriaImperialis\BepInEx\monomod\Assembly-CSharp.TerriaImperialis.mm.dll
 C:\Users\Kaise\source\repos\TerriaImperialis\TerriaImperialis\Mod\TerriaImperialis\BepInEx\monomod\Assembly-CSharp.TerriaImperialis.mm.pdb
+C:\Users\Kaise\Source\Repos\TerriaImperialis\TerriaImperialis\Source\obj\Debug\TerriaIm.6236790B.Up2Date

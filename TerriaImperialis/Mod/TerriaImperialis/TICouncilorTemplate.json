@@ -1,6 +1,6 @@
 [
     {
-        "dataName": "randomizedAlienCouncilor1",
+        "dataName": "randomizedAlienCouncilor3",
         "randomized": true,
         "alien": true,
         "randomizeTraits": false,
@@ -11,7 +11,7 @@
         "debugOnly": false
     },
     {
-        "dataName": "randomizedAlienCouncilor2",
+        "dataName": "randomizedAlienCouncilor4",
         "randomized": true,
         "alien": true,
         "randomizeTraits": false,
@@ -25,7 +25,7 @@
         "debugOnly": false
     },
     {
-        "dataName": "randomizedCouncilor1",
+        "dataName": "randomizedCouncilor2",
         "randomized": true,
         "alien": false,
         "randomizeTraits": true,
