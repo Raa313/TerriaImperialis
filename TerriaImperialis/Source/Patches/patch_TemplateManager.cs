@@ -4,6 +4,7 @@ using PavonisInteractive.TerraInvicta.Modding;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using UnityEngine;
 
@@ -25,6 +26,26 @@ namespace PavonisInteractive.TerraInvicta {
         [MonoModIgnore]
         private static JsonController jController = new JsonController();
 
+        [MonoModReplace]
+        private static void RegisterFileBasedTemplates(string templatePath, bool replaceDuplicates = false) {
+            Debug.Log("RegisterFileBasedTemplates Template Path: " + templatePath);
+            if (!Directory.Exists(templatePath)) {
+                Log.Error("TemplateManager.InitTemplates -- could not find template path " + templatePath);
+                return;
+            }
+            string[] files = Directory.GetFiles(templatePath, "*.json", SearchOption.AllDirectories);
+            IEnumerable<string> second = Enumerable.Empty<string>();
+            if (Directory.Exists("DLC_Content")) {
+                second = Directory.GetFiles("DLC_Content", "*.json", SearchOption.AllDirectories);
+            }
+            string[] array = (from x in files.Concat(second).ToArray()
+                              orderby x.Contains("TIMetaTemplate.json") descending
+                              select x).ToArray();
+            for (int num = 0; num < array.Length; num++) {
+                RegisterFileBasedTemplate(array[num], replaceDuplicates);
+            }
+        }
+
 
         [MonoModReplace]
         private static void RegisterFileBasedTemplate(string templateFile, bool replaceDuplicates = false) {
@@ -37,6 +58,8 @@ namespace PavonisInteractive.TerraInvicta {
                 Debug.LogError("templateType is null for " + templateFile);
                 return;
             }
+
+            Debug.Log("fileNameWithoutExtension: " + fileNameWithoutExtension);
             TIDataTemplate[] array;
             if (TIPlayerProfileManager.useMods) {
                 List<JsonMod> modsForTemplate = ModTemplateManager.GetModsForTemplate(fileNameWithoutExtension);
@@ -48,12 +71,24 @@ namespace PavonisInteractive.TerraInvicta {
                         if (item.TemplatesToConcatArrays != null && item.TemplatesToConcatArrays.Contains(fileNameWithoutExtension + ".json")) {
                             mergeArrayMode = MergeArrayHandling.Concat;
                         }
+
+                        Debug.Log("Merging Mod Template: " + item.ModFilePath);
+                        Debug.Log(item.FileContents.ToString());
+                        if (item.TemplatesToReplaceArrays != null) {
+                            Debug.Log("TemplatesToReplaceArrays: " + string.Join(", ", item.TemplatesToReplaceArrays));
+                        }
+                        if (item.TemplatesToReplace != null) {
+                            Debug.Log("TemplatesToReplace: " + string.Join(", ", item.TemplatesToReplace));
+                        }
+
                         if (item.TemplatesToReplaceArrays != null && item.TemplatesToReplaceArrays.Contains(fileNameWithoutExtension + ".json")) {
                             mergeArrayMode = MergeArrayHandling.Replace;
+                            Debug.Log("Replacing array for Mod Template: " + item.ModFilePath);
                         }
                         list = ((item.TemplatesToReplace == null || !item.TemplatesToReplace.Contains(fileNameWithoutExtension + ".json")) ?
                             jController.CombineJson(list, item.FileContents, dlcFile, mergeArrayMode) : item.FileContents);
                         Debug.Log("Successfully Merged Mod Template: " + item.ModFilePath);
+                        Debug.Log(" ------ ");
                         item.SetFoundMatch();
                     }
                     array = FSSaveLoad.LoadDataTemplatesFromString(jController.jObjectListToString(list), type.MakeArrayType());

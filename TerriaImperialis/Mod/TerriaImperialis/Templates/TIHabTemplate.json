@@ -1,0 +1,122 @@
+[
+    {
+        "dataName": "XenosHQ",
+        "friendlyName": "Xenos HQ",
+        "habType": "Base",
+        "tier": 3,
+        "habSite": "",
+        "alien": true,
+        "orbitTemplateName": "",
+        "meanAnomalyAtEpoch_Deg": null,
+        "epoch_floatJYears": null,
+        "sectors": [
+            {
+                "faction": "XenosCouncil",
+                "habModuleNames": [
+                    "AlienColonyCore",
+                    "AlienColonyMiningComplex",
+                    "AlienWormholeFacility",
+                    "AlienFusionReactorFarm",
+                    "AlienNanofacturingComplex"
+                ]
+            },
+            {
+                "faction": "XenosCouncil",
+                "habModuleNames": [
+                    "AlienFusionReactorFarm",
+                    "AlienCitadel",
+                    "AlienSpaceworks",
+                    "AlienSpaceworks"
+                ]
+            },
+            {
+                "faction": "XenosCouncil",
+                "habModuleNames": [
+                    "AlienFusionReactorFarm",
+                    "AlienBattlestations",
+                    "AlienBattlestations",
+                    "AlienCitadel"
+                ]
+            },
+            {
+                "faction": "XenosCouncil",
+                "habModuleNames": [
+                    "AlienFusionReactorFarm",
+                    "AlienBattlestations",
+                    "AlienBattlestations",
+                    "AlienCitadel"
+                ]
+            },
+            {
+                "faction": "XenosCouncil",
+                "habModuleNames": [
+                    "AlienFusionReactorFarm",
+                    "AlienBattlestations",
+                    "AlienBattlestations",
+                    "AlienCitadel"
+                ]
+            }
+        ]
+    },
+    {
+        "dataName": "XenosHQStation",
+        "friendlyName": "Xenos Station Alpha",
+        "habType": "Station",
+        "tier": 3,
+        "habSite": "",
+        "alien": true,
+        "orbitTemplateName": "",
+        "meanAnomalyAtEpoch_Deg": null,
+        "epoch_floatJYears": null,
+        "sectors": [
+            {
+                "faction": "XenosCouncil",
+                "habModuleNames": [
+                    "AlienRingCore",
+                    "AlienGarrison",
+                    "AlienNanofactory",
+                    "AlienGarrison",
+                    "AlienFusionReactorFarm"
+                ]
+            },
+            {
+                "faction": "XenosCouncil",
+                "habModuleNames": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            {
+                "faction": "XenosCouncil",
+                "habModuleNames": [
+                    "AlienFusionReactorArray",
+                    "AlienLayeredDefenseArray",
+                    "AlienFusionReactorArray",
+                    "AlienBattlestations"
+                ]
+            },
+            {
+                "faction": "XenosCouncil",
+                "habModuleNames": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            {
+                "faction": "XenosCouncil",
+                "habModuleNames": [
+                    "AlienShipyard",
+                    "AlienLayeredDefenseArray",
+                    "AlienFusionReactorArray",
+                    "AlienFusionReactorArray"
+                ]
+            }
+        ]
+    }
+
+
+]
