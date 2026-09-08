@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\TerriaImperialis",
-    "\\TerriaImperialis\\Source"
+    "\\TerriaImperialis\\CSVs",
+    "\\TerriaImperialis\\Mod\\TerriaImperialis"
   ],
-  "SelectedNode": "\\TerriaImperialis\\Source\\TerriaImperialis.csproj",
+  "SelectedNode": "\\TerriaImperialis\\CSVs\\TIOrgTemplate.csv",
   "PreviewInSolutionExplorer": false
 }

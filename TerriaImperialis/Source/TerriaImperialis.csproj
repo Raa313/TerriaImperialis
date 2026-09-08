@@ -120,7 +120,8 @@
     <Compile Include="Patches\patch_FactionIdeology.cs" />
     <Compile Include="Patches\patch_fsEnumConverter.cs" />
     <Compile Include="Patches\patch_GameStateManager.cs" />
-    <Compile Include="Patches\patch_TemplateManager.cs" />
+    <Compile Include="Patches\patch_NationInfoController.cs" />
+    <Compile Include="Patches\patch_TITemplateManager.cs" />
     <Compile Include="Patches\patch_TICouncilorState.cs" />
     <Compile Include="Patches\patch_TIFactionState.cs" />
     <Compile Include="Patches\patch_TINationState.cs" />
