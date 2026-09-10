@@ -55,6 +55,7 @@ namespace PavonisInteractive.TerraInvicta {
                         }
                         list = ((item.TemplatesToReplace == null || !item.TemplatesToReplace.Contains(fileNameWithoutExtension + ".json")) ?
                             jController.CombineJson(list, item.FileContents, dlcFile, mergeArrayMode) : item.FileContents);
+                        Debug.Log("TemplatesToReplace: " + (fileNameWithoutExtension) + " - " + (item.TemplatesToReplace == null ? "null" : String.Join(", ", item.TemplatesToReplace)));
                         Debug.Log("Successfully Merged Mod Template: " + item.ModFilePath);
                         Debug.Log(" ------ ");
                         item.SetFoundMatch();
